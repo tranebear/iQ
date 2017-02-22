@@ -2,61 +2,17 @@
 <html>
 <head>
     <title>iQ</title>
-    <link type="text/css" rel="stylesheet" href="iQ.css"></link>
-    <script type="text/JavaScript">
-        
-        function addQuestion() {
-            var div = document.createElement("div");
-
-            
-            // Lage det fargerikt
-            div.id = randomId();
-            
-
-            div.innerHTML = document.getElementById("message").value + '<br>';
-
-            document.getElementById("content").insertBefore(div, document.getElementById("content").firstChild);
-        };
-
-        function randomId() {
-            var val = Math.floor((Math.random()*10));
-            switch(val) {
-                case 0:
-                    return "aqua";
-                case 1:
-                    return "blue";  
-                case 2:
-                    return "Coral";
-                case 3:
-                    return "DarkGoldenRod";
-                case 4:
-                    return "DarkSlateGrey";
-                case 5:
-                    return "DeepPink";
-                case 6:
-                    return "Gold";
-                case 7:
-                    return "GreenYellow";
-                case 8:
-                    return "LightSeaGreen";
-                case 9:
-                    return "Red";
-                default:
-                    return "Jaja";
-            }
-        }
-    </script>
+    <link type="text/css" rel="stylesheet" href="../css/iQ.css">
+    <script type="text/javascript" src="../js/iQ.js"></script>
 </head>
 <body>
+
 	<form>
         Enter question: <br><input type="text" id = "message">
         <input id="enter" class="enterClass" type="button" onclick="addQuestion()" value="Post" />
         <div id = "content">
             <!-- Her kommer spørsmålene som nye div-er.-->
         </div>
-        
-        
-		
 	</form>
 </body>
 </html>
