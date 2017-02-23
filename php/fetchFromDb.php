@@ -16,7 +16,7 @@ if ($conn->connect_error) {
 $question = $conn->real_escape_string($_REQUEST['question']);
 
 
-$sql2 = "SELECT * FROM `QUESTION`";
+$sql2 = "SELECT * FROM `QUESTION` ORDER BY `id` DESC";
 
 $result = $conn->query($sql2);
 
