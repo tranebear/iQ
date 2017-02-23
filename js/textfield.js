@@ -1,19 +1,28 @@
-function addQuestion(text = document.getElementById("question").value) {
-    
+function addQuestion() {
+    text = document.getElementById("question").value;
     var div = document.createElement("div");
+    
+    if (questionIsEmpty(text)) {
+        console.log("test");
+        return false;
+    }
     // Lage det fargerikt
     div.id = getRandomColor();
     
     div.innerHTML = text + '<br>';
     
-    if(text != ""){
     document.getElementById("content").insertBefore(div, document.getElementById("content").firstChild);
     document.getElementById("question").value = "";
+}
+
+function questionIsEmpty(question){
+    if (question.length < 1) {
         return true;
-    };
-    
+    }
     return false;
 }
+
+module.exports = questionIsEmpty;
 
 function getRandomColor() {
     var val = Math.floor((Math.random()*10));
