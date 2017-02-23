@@ -15,6 +15,8 @@ function addQuestion(text = document.getElementById("question").value) {
     return false;
 }
 
+module.exports = addQuestion;
+
 function getRandomColor() {
     var val = Math.floor((Math.random()*10));
     switch(val) {

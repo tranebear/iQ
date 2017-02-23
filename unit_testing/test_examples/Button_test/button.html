@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>iQ</title>
+	<link rel="stylesheet" href="mocha.css" />
+</head>
+
+<body>
+	<h2>iQ</h2>
+	
+		<input type="text" name="inputQuestion"> 
+		<button id="button" onclick="addQuestion()">Post</button><br>
+
+	<div id="Question">
+	</div><br>
+	
+	<div id="mocha"></div> <!--Hvor test-resultater vises-->
+
+	<script src="mocha.js"></script>
+	<script src="chai.js"></script>
+	<script>
+		mocha.ui('bdd'); //setter Chai påstands style til BDD
+		mocha.reporter('html'); //setter style på test-resultat
+		var expect = chai.expect; //overfører eierskap av expect til chai bibliotek
+	</script>
+
+<script type="text/javascript" src="button_test.js"></script>
+<script>
+	mocha.run(); //initierer testingen!
+</script>
+
+<!-- MOCHA KODE HENTET FRA: http://www.codechewing.com/library/javascript-dom-browser-tests-mocha-chai/ -->
+
+</body>
+</html>
