@@ -20,12 +20,12 @@
     </div>
 
     <script src="../js/reactButtons.js"></script>
-    
+
     <script type="text/javascript">
 
 		setInterval(function(){
 		   $('#content').load('http://org.ntnu.no/tdt4140iq/iQ/php/fetchFromDb.php');
-		}, 10000);
+		}, 100000000);
     </script>
 </body>
 </html>
