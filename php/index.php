@@ -8,11 +8,11 @@
 	
 </head>
 <body>
-	<?php include 'insertToDb.php';?>
+	<?php include 'insert/insertQuestionToDb.php';?>
 
-	<?php include 'form.php';?>
+	<?php include 'forms/questionForm.php';?>
 
-	<?php include 'reactButtonForms.php';?>
+	<?php include 'forms/reactButtonForms.php';?>
 
 
 	<div id = "content">
@@ -24,8 +24,8 @@
     <script type="text/javascript">
 
 		setInterval(function(){
-		   $('#content').load('http://org.ntnu.no/tdt4140iq/iQ/php/fetchFromDb.php');
-		}, 100000000);
+		   $('#content').load('http://org.ntnu.no/tdt4140iq/iQ/php/fetch/fetchQuestionFromDb.php');
+		}, 3);
     </script>
 </body>
 </html>
