@@ -20,7 +20,8 @@
     </div>
 
     <script src="../js/reactButtons.js"></script>
-
+    <script src="../js/votingButtons.js"></script>
+    
     <script type="text/javascript">
 
 		setInterval(function(){

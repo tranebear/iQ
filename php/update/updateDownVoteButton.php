@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 
 
 // attempt update query execution
-mysqli_query($conn, "UPDATE REACT_BUTTONS SET counter=counter+1 WHERE button_name = 'write_clearer'");
+mysqli_query($conn, "UPDATE QUESTION SET totalvote=totalvote-1 WHERE id = '1'");
 
 
 // Close connection
