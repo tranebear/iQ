@@ -25,7 +25,7 @@
 
 		setInterval(function(){
 		   $('#content').load('http://org.ntnu.no/tdt4140iq/iQ/php/fetch/fetchQuestionFromDb.php');
-		}, 3);
+		}, 10000);
     </script>
 </body>
 </html>

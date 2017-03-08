@@ -23,7 +23,7 @@ $result = $conn->query($sql2);
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-        echo "Question " . $row["id"] . ": " . $row["question_text"]. "<br>";
+        echo "<div class='questionBox' id='".$row["id"]."'>" . "Question " . $row["id"] . ": " . $row["question_text"]. "</div>" . "<br>";
     }
 } else {
     echo "0 results";
