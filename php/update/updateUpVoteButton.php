@@ -12,9 +12,10 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
+$parentId = $_GET['parent'];
 
 // attempt update query execution
-mysqli_query($conn, "UPDATE QUESTION SET totalvote=totalvote+1 WHERE id = '1'");
+mysqli_query($conn, "UPDATE QUESTION SET totalvote=totalvote+1 WHERE id = '$parentId'");
 
 
 // Close connection

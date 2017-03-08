@@ -18,8 +18,13 @@ $question = $conn->real_escape_string($_REQUEST['question']);
 // attempt insert query execution
 $sql = "INSERT INTO `yntran_iq_db`.`QUESTION` (`id`, `question_text`) VALUES (NULL,'$question')";
 
-if($conn->query($sql) === true){
+$old_submit = $_GET['question']; // this gets the submit variable you appended in your form
+$current_url = 'http://org.ntnu.no/tdt4140iq/iQ/php/index.php';
+
+if($conn->query($sql) === true && old_submit == true){
 	$last_id = $conn->insert_id;
+	// header("Location: $current_url");
+	// exit();
     //echo "Records inserted successfully. Last inserted ID is: " . $last_id;
 } else{
     echo "ERROR: Could not able to execute $sql. " . $conn->error;

@@ -5,10 +5,13 @@
 	<title>iQ</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- <link type="text/css" rel="stylesheet" href="textfield.css"> -->
+    <!-- disallow browser cache -->
+	<meta HTTP-EQUIV="Pragma" content="no-cache">
+	<meta HTTP-EQUIV="Expires" content="-1" >
 	
 </head>
 <body>
-	<?php include 'insert/insertQuestionToDb.php';?>
+	<!-- <?php include 'insert/insertQuestionToDb.php';?> -->
 
 	<?php include 'forms/questionForm.php';?>
 
@@ -26,7 +29,7 @@
 
 		setInterval(function(){
 		   $('#content').load('http://org.ntnu.no/tdt4140iq/iQ/php/fetch/fetchQuestionFromDb.php');
-		}, 10000);
+		}, 500);
     </script>
 </body>
 </html>
