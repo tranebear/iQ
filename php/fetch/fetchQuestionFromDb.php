@@ -23,7 +23,7 @@ $result = $conn->query($sql2);
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-        echo "<div class='questionBox' id='".$row["id"]."'>" . "Question " . $row["id"] . ": " . $row["question_text"]. "<button onClick='upVoteButton(this)'>Up vote</button>". "<div class='totalVotes' id='".$row["id"]."'>".$row["totalvote"]."</div>". "<button onClick='downVoteButton()'>Down vote</button>" . "</div>" . "<br>";
+        echo "<div class='questionBox' id='".$row["id"]."'>" . "Question " . $row["id"] . ": " . $row["question_text"]. "<button onClick='upVoteButton(".$row["id"].")'>Up vote</button>". "<div class='totalVotes' id='".$row["id"]."'>".$row["totalvote"]."</div>". "<button onClick='downVoteButton()'>Down vote</button>" . "</div>" . "<br>";
     }
 } else {
     echo "0 results";

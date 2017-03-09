@@ -14,6 +14,12 @@
 	<!-- <?php include 'insert/insertQuestionToDb.php';?> -->
 
 	<?php include 'forms/questionForm.php';?>
+	
+	<!-- <?php
+		if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+	     include 'forms/questionForm.php';
+		}
+	?> -->
 
 	<?php include 'forms/reactButtonForms.php';?>
 
@@ -29,7 +35,7 @@
 
 		setInterval(function(){
 		   $('#content').load('http://org.ntnu.no/tdt4140iq/iQ/php/fetch/fetchQuestionFromDb.php');
-		}, 500);
+		}, 10000);
     </script>
 </body>
 </html>

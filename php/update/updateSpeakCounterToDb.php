@@ -18,6 +18,8 @@ if ($conn->connect_error) {
 
 // attempt update query execution
 
+echo "heeeei";
+
 mysqli_query($conn, "UPDATE REACT_BUTTONS SET counter=counter+1 WHERE button_name = 'speak_up'");
 
 // $sql = "UPDATE REACT_BUTTONS SET counter='9' WHERE button_name = 'speak_up'";

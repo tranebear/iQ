@@ -12,18 +12,19 @@ var downVote;
 // }
 
 
-function upVoteButton(button) {
+function upVoteButton(id) {
     // upVote += 1;
     // document.getElementById("speak_up_counter").innerHTML = upVote;
-    var parent = button.parentElement.id;
-    console.log('Dette er id-en til button sin forelder:' + parent);
+    //var parent = button.parentElement.id;
+    //console.log('Dette er id-en til button sin forelder:' + parent);
 
     //hente id til parent div her
-    $.get( "../php/update/updateUpVoteButton.php" );
+    //$.get( "../php/update/updateUpVoteButton.php" );
 
     $.ajax({
-    	url:"../php/update/updateUpVoteButton.php", //the page containing php script
+    	url:"../php/update/updateUpVoteButton.php?id=" + id, //the page containing php script
 	    type: "POST", //request type
+        //data: { parent : parent },
 	});
 };
 

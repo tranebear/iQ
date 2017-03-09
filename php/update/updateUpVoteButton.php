@@ -11,11 +11,24 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
+//$parentId = $_GET['parent'];
 
-$parentId = $_GET['parent'];
+$pid = $_GET["id"];
 
+
+mysqli_query($conn, "UPDATE QUESTION SET totalvote=totalvote+1 WHERE id = '$pid'");
+
+
+// if(isset($_POST['parent']))
+// {	
+// 	echo "hei2";
+//     $pid = $_POST['parent'];
+//     echo $pid;
+//     mysqli_query($conn, "UPDATE QUESTION SET totalvote=totalvote+1 WHERE id = '$pid'");
+//     // Do whatever you want with the $uid
+// }
 // attempt update query execution
-mysqli_query($conn, "UPDATE QUESTION SET totalvote=totalvote+1 WHERE id = '$parentId'");
+
 
 
 // Close connection
