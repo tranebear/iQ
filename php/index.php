@@ -22,38 +22,36 @@
 	
 </head>
 <body>
-	<!-- div element for questions, input, buttons and header-->
-	<div class="container">
+<!-- div element for questions, input, buttons and header-->
 
-		<h1>iQ</h1>
-		<h5>- Helps questioning for you!</h5>
+	<h1>iQ</h1>
+	<h5>- Helps questioning for you!</h5>
 
-		<!-- The questionForm shows here-->
-		<?php include 'forms/questionForm.php';?>
-		
-		
-		<!-- The react buttons will be shown here -->
-		<?php include 'forms/reactButtonForms.php';?>
+	<!-- The questionForm shows here-->
+	<?php include 'forms/questionForm.php';?>
+	
+	
+	<!-- The react buttons will be shown here -->
+	<?php include 'forms/reactButtonForms.php';?>
 
 
-		<div id = "content">
-	        <!-- New questions from the database will apear here-->
-	    </div>
-
+	<div id = "content">
+        <!-- New questions from the database will apear here-->
+        <?php include 'fetch/fetchQuestionFromDb.php';?>
     </div>
 
-    <!-- Here are the js file included. Have to be included at the bottom. -->
-    <script src="../js/reactButtons.js"></script>
-    <script src="../js/votingButtons.js"></script>
-    <script src="../js/submitButton.js"></script>
-    
+	<!-- Here are the js file included. Have to be included at the bottom. -->
+	<script src="../js/reactButtons.js"></script>
+	<script src="../js/votingButtons.js"></script>
+	<script src="../js/submitButton.js"></script>
 
-    <script type="text/javascript">
-    	// This is the ajax loading for the question. The last parameter is how often the .load()
-    	// function is going to load the questions. It is in milliseconds.
-		setInterval(function(){
-		   $('#content').load('http://org.ntnu.no/tdt4140iq/iQ/php/fetch/fetchQuestionFromDb.php');
-		}, 1000);
-    </script>
+
+	<script type="text/javascript">
+		// This is the ajax loading for the question. The last parameter is how often the .load()
+		// function is going to load the questions. It is in milliseconds.
+		//setInterval(function(){
+	   	//$('#content').load('http://org.ntnu.no/tdt4140iq/iQ/php/fetch/fetchQuestionFromDb.php');
+		//}, 1000);
+</script>
 </body>
 </html>

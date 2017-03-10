@@ -1,21 +1,70 @@
-body{
-	background-color: #03A9F4;
-	max-width: 100%;
-}
 
-.container{
+html{
+	margin: 0;
+}
+body{
 	margin-left: 20%;
 	margin-right: 20%;
 	text-align: center;
+	max-width: 100%;
+	background-color: #03A9F4;
+	font-size: 20px;
 }
 
+/*styling input field with submit button. 
+Make them on same line*/
 .inputFormWithButton{
 	display: inline-block;
+}
+
+/*Styling reaction buttons, making them on same line*/
+.reactButtons{
+	display: inline-block;
+	margin-top: 5%;
 
 }
 
-/*.reactButtons{
+/*position the counter-numbers next to react buttons*/
+.counters{
+	position: relative;
 	display: inline-block;
+}
 
-}*/
+#content{
+	margin-top: 5%;
+}
 
+.questionBox{
+	width: 100%;
+	border: 1px solid black;
+	display: flex;
+}
+
+.questionText{
+	width: 90%;
+	padding: 5px;
+	display: inline-block;
+	text-align: left;
+}
+.votebuttons{
+	position: relative;
+	right: 0px;
+	display: inline-block;
+	border: 2px solid red;
+	flex = 1;
+}
+
+/*
+.upVoteButton{
+	position: relative;
+	top: 0;
+}
+
+.totalVotes{
+	
+}
+.downVoteButton{
+	position: relative;
+	bottom: 0;
+}
+*/
