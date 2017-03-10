@@ -28,8 +28,11 @@
 		<h1>iQ</h1>
 		<h5>- Helps questioning for you!</h5>
 
-		<!-- The questionForm shows here-->
-		<?php include 'forms/questionForm.php';?>
+		<!--Bootstrap grid, first row-->
+		<div class="row">
+			<!-- The questionForm shows here-->
+			<?php include 'forms/questionForm.php';?>
+		</div>
 		
 		<!-- The react buttons will be shown here -->
 		<?php include 'forms/reactButtonForms.php';?>
