@@ -3,39 +3,36 @@
 <head>
 	<meta charset="UTF-8">
 	<title>iQ</title>
+	<!-- This is the ajax / jquery library packet. It allows us to use ajax and jquery in the code -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
     <!-- <link type="text/css" rel="stylesheet" href="textfield.css"> -->
-    <!-- disallow browser cache -->
-	<meta HTTP-EQUIV="Pragma" content="no-cache">
-	<meta HTTP-EQUIV="Expires" content="-1" >
 	
 </head>
 <body>
-	<!-- <?php include 'insert/insertQuestionToDb.php';?> -->
-
+	<!-- The questionForm shows here-->
 	<?php include 'forms/questionForm.php';?>
 	
-	<!-- <?php
-		if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-	     include 'forms/questionForm.php';
-		}
-	?> -->
-
+	<!-- The react buttons will be shown here -->
 	<?php include 'forms/reactButtonForms.php';?>
 
 
 	<div id = "content">
-        <!-- Her kommer spørsmålene som nye div-er.-->
+        <!-- New questions from the database will apear here-->
     </div>
 
+    <!-- Here are the js file included. Have to be included at the bottom. -->
     <script src="../js/reactButtons.js"></script>
     <script src="../js/votingButtons.js"></script>
+    <script src="../js/submitButton.js"></script>
     
-    <script type="text/javascript">
 
+    <script type="text/javascript">
+    	// This is the ajax loading for the question. The last parameter is how often the .load()
+    	// function is going to load the questions. It is in milliseconds.
 		setInterval(function(){
 		   $('#content').load('http://org.ntnu.no/tdt4140iq/iQ/php/fetch/fetchQuestionFromDb.php');
-		}, 10000);
+		}, 1000);
     </script>
 </body>
 </html>

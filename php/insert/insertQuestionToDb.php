@@ -13,7 +13,7 @@ if ($conn->connect_error) {
 } 
 
 // Escape user inputs for security
-$question = $conn->real_escape_string($_REQUEST['question']);
+$question = $conn->real_escape_string($_GET['question']);
  
 // attempt insert query execution
 $sql = "INSERT INTO `yntran_iq_db`.`QUESTION` (`id`, `question_text`) VALUES (NULL,'$question')";
