@@ -37,7 +37,6 @@
 
 	<div id = "content">
         <!-- New questions from the database will apear here-->
-        <?php include 'fetch/fetchQuestionFromDb.php';?>
     </div>
 
 	<!-- Here are the js file included. Have to be included at the bottom. -->
@@ -49,9 +48,9 @@
 	<script type="text/javascript">
 		// This is the ajax loading for the question. The last parameter is how often the .load()
 		// function is going to load the questions. It is in milliseconds.
-		//setInterval(function(){
-	   	//$('#content').load('http://org.ntnu.no/tdt4140iq/iQ/php/fetch/fetchQuestionFromDb.php');
-		//}, 1000);
+		setInterval(function(){
+	   		$('#content').load('http://org.ntnu.no/tdt4140iq/iQ/php/fetch/fetchQuestionFromDb.php');
+		}, 1000);
 </script>
 </body>
 </html>
