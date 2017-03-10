@@ -1,4 +1,5 @@
 <?php
+// Define login information to database
 $servername = "mysql.stud.ntnu.no";
 $username = "yntran_iq";
 $password = "iqerbest";
@@ -15,7 +16,7 @@ if ($conn->connect_error) {
 //fetch id from votingButtons.js
 $pid = $_GET["id"];
 
-// attempt update query execution
+// MySQL query for to the database. It updates totalvote +1 when clicked
 mysqli_query($conn, "UPDATE QUESTION SET totalvote=totalvote-1 WHERE id = '$pid'");
 
 
