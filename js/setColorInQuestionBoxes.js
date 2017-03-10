@@ -1,4 +1,4 @@
-function appendColorClass() {
+function appendColorStyle() {
 	var box = document.getElementByClassName("questionBox");
 	box.style.background-color = getRandomColor();
 }
