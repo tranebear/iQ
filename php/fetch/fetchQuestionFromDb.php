@@ -15,10 +15,13 @@ if ($conn->connect_error) {
 // Escape user inputs for security
 $question = $conn->real_escape_string($_REQUEST['question']);
 
+// MySQL query for to the database. Fetching counter.
 $sql2 = "SELECT * FROM `QUESTION` ORDER BY `id` DESC";
 
+//the connection is happend here
 $result = $conn->query($sql2);
 
+//if there is more than 0 rows in the databse, fetch the rows. it its generating each question in a div
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
