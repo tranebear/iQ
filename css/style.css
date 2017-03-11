@@ -37,6 +37,7 @@ Make them on same line*/
 	width: 100%;
 	border: 1px solid black;
 	display: flex;
+	background-color: #03A9F4;
 }
 
 .questionText{
@@ -49,7 +50,6 @@ Make them on same line*/
 	position: relative;
 	right: 0px;
 	display: inline-block;
-	border: 2px solid red;
 	flex = 1;
 }
 

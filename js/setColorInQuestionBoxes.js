@@ -1,30 +1,59 @@
-function appendColorStyle() {
-	var box = document.getElementByClassName("questionBox");
-	box.style.background-color = getRandomColor();
-}
+// Sets color on the boxes from the first submitted to the last submitted. Sets it in the order getRandomColor()'s colors are set. 
+$( document ).ajaxComplete(function() {
+    var n = 0;
+    for (var i = $(".questionBox").length - 1; i >= 0; i--) {
+        if (n > 5) {
+            n = 0;
+        }
+        $(".questionBox")[i].style.backgroundColor = getRandomColor(n);
+        n = n + 1
+    };
+})
 
-function getRandomColor() {
-    var val = Math.floor((Math.random()*10));
+function getRandomColor(val) {
     switch(val) {
         case 0:
-            return "aqua";
+            return "#AB47BC";
         case 1:
-            return "blue";  
+            return "#EC407A";  
         case 2:
-            return "Coral";
+            return "#FFEE58";
         case 3:
-            return "DarkGoldenRod";
+            return "#FF7043";
         case 4:
-            return "DarkSlateGrey";
+            return "#FFA726";
         case 5:
-            return "DeepPink";
-        case 6:
-            return "Gold";
-        case 7:
-            return "GreenYellow";
-        case 8:
-            return "LightSeaGreen";
-        case 9:
-            return "Red";
+            return "#66BB6A";
     }
 }
+
+/*function getRandomColor() {
+    var val = Math.floor((Math.random()*6));
+    switch(val) {
+        case 0:
+            return "#AB47BC";
+        case 1:
+            return "#EC407A";  
+        case 2:
+            return "#FFEE58";
+        case 3:
+            return "#FF7043";
+        case 4:
+            return "#FFA726";
+        case 5:
+            return "#66BB6A";
+    }
+}*/
+
+
+
+/*
+$( document ).ajaxComplete(function() {
+    $(".questionBox").each(function( i ) {
+        if ( this.style.backgroundColor == "" ) {
+            this.style.backgroundColor = getRandomColor();
+        }
+    console.log(this)
+    });
+});*/
+

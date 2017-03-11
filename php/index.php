@@ -18,7 +18,7 @@
 	<!-- This is bootstrap library packet. It allowas us to use bootstrap in the code -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<title>iQ</title>
-   
+   	
 	
 </head>
 <body>
@@ -43,6 +43,7 @@
 	<script src="../js/reactButtons.js"></script>
 	<script src="../js/votingButtons.js"></script>
 	<script src="../js/submitButton.js"></script>
+	<script src="../js/setColorInQuestionBoxes.js"></script>
 
 
 	<script type="text/javascript">
@@ -51,6 +52,6 @@
 		setInterval(function(){
 	   		$('#content').load('http://org.ntnu.no/tdt4140iq/iQ/php/fetch/fetchQuestionFromDb.php');
 		}, 1000);
-</script>
+	</script>
 </body>
 </html>
