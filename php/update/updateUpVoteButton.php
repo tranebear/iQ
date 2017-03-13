@@ -1,4 +1,5 @@
 <?php
+// Define login information to database
 $servername = "mysql.stud.ntnu.no";
 $username = "yntran_iq";
 $password = "iqerbest";
@@ -11,23 +12,12 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
-//$parentId = $_GET['parent'];
 
+//fetch id from votingButtons.js
 $pid = $_GET["id"];
 
-
+// MySQL query for to the database. It updates totalvote +1 when clicked
 mysqli_query($conn, "UPDATE QUESTION SET totalvote=totalvote+1 WHERE id = '$pid'");
-
-
-// if(isset($_POST['parent']))
-// {	
-// 	echo "hei2";
-//     $pid = $_POST['parent'];
-//     echo $pid;
-//     mysqli_query($conn, "UPDATE QUESTION SET totalvote=totalvote+1 WHERE id = '$pid'");
-//     // Do whatever you want with the $uid
-// }
-// attempt update query execution
 
 
 

@@ -1,21 +1,27 @@
 
-<button id="speak_up" onClick="speakUp()">Speak up</button>
+<div class="reactButtons">
+	<button id="speak_up" onClick="speakUp()">Speak up</button>
 	
-<div id="speak_up_counter">
-	<?php include 'fetch/fetchSpeakCounterFromDb.php';?>
+	<div id="speak_up_counter" class="counters">
+		<?php include 'fetch/fetchSpeakCounterFromDb.php';?>
+	</div>
 </div>
 
 
-<button id="not_understand" onClick="notUnderstand()">Not understand</button>
+<div class="reactButtons">
+	<button id="not_understand" onClick="notUnderstand()">Not understand</button>
 	
-<div id="not_understand_counter">
-	<?php include 'fetch/fetchNotUnderstandCounterFromDb.php';?>
+	<div id="not_understand_counter" class="counters">
+		<?php include 'fetch/fetchNotUnderstandCounterFromDb.php';?>
+	</div>
 </div>
 
 
-<button id="write_cleaner" onClick="writeCleaner()">Write cleaner</button>
+<div class="reactButtons">
+	<button id="write_cleaner" onClick="writeCleaner()">Write cleaner</button>
 	
-<div id="write_cleaner_counter">
+	<div id="write_cleaner_counter" class="counters">
 	<?php include 'fetch/fetchWriteCounterFromDb.php';?>
+	</div>
 </div>
 

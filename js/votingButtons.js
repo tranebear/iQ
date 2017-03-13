@@ -15,29 +15,25 @@ var downVote;
 function upVoteButton(id) {
     // upVote += 1;
     // document.getElementById("speak_up_counter").innerHTML = upVote;
-    //var parent = button.parentElement.id;
-    //console.log('Dette er id-en til button sin forelder:' + parent);
-
-    //hente id til parent div her
-    //$.get( "../php/update/updateUpVoteButton.php" );
 
     $.ajax({
     	url:"../php/update/updateUpVoteButton.php?id=" + id, //the page containing php script
 	    type: "POST", //request type
-        //data: { parent : parent },
 	});
    
     //return id != null;
 };
 
+<<<<<<< HEAD
 //connect to testUpVoteButtonFunc.js
 module.exports = upVoteButton;
 
-function downVoteButton() {
+function downVoteButton(id) {
+>>>>>>> 72d32288e786396aab86639062fae06296281ad1
     // downVote += 1;
     // document.getElementById("not_understand_counter").innerHTML = downVote;
     $.ajax({
-    	url:"../php/update/updateDownVoteButton.php", //the page containing php script
+    	url:"../php/update/updateDownVoteButton.php?id=" + id, //the page containing php script
 	    type: "POST", //request type
 	});
 };
