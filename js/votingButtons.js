@@ -26,7 +26,12 @@ function upVoteButton(id) {
 	    type: "POST", //request type
         //data: { parent : parent },
 	});
+   
+    //return id != null;
 };
+
+//connect to testUpVoteButtonFunc.js
+module.exports = upVoteButton;
 
 function downVoteButton() {
     // downVote += 1;
