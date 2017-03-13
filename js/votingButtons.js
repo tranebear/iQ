@@ -24,12 +24,11 @@ function upVoteButton(id) {
     //return id != null;
 };
 
-<<<<<<< HEAD
 //connect to testUpVoteButtonFunc.js
 module.exports = upVoteButton;
 
 function downVoteButton(id) {
->>>>>>> 72d32288e786396aab86639062fae06296281ad1
+
     // downVote += 1;
     // document.getElementById("not_understand_counter").innerHTML = downVote;
     $.ajax({
