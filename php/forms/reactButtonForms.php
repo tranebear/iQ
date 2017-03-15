@@ -1,6 +1,9 @@
 
 <div class="reactButtons">
-	<button id="speak_up" onClick="speakUp()">Speak up</button>
+	<div id="speak_up" onClick="speakUp()">
+		<img src="../png/questionmark.png" >
+	</div>
+	
 	
 	<div id="speak_up_counter" class="counters">
 		<?php include 'fetch/fetchSpeakCounterFromDb.php';?>

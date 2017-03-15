@@ -34,7 +34,10 @@
 	<!-- The react buttons will be shown here -->
 	<?php include 'forms/reactButtonForms.php';?>
 
-
+	<div id = "upVoteContent">
+		<!-- Highest voted questions will appear here -->
+		
+	</div>
 	<div id = "content">
         <!-- New questions from the database will apear here-->
     </div>
@@ -51,7 +54,7 @@
 		// function is going to load the questions. It is in milliseconds.
 		setInterval(function(){
 	   		$('#content').load('http://org.ntnu.no/tdt4140iq/iQ/php/fetch/fetchQuestionFromDb.php');
-		}, 1000);
+		}, 10000);
 	</script>
 </body>
 </html>
