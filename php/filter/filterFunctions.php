@@ -55,6 +55,10 @@
 		}
 		return false;
 	}
+
+	function submitQuestion() {
+		
+	}
 /*
 	echo isBadInput("Faens jævla fittekuk, det er det du er!!        Satan");
 	echo "<br>";
