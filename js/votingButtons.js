@@ -20,9 +20,15 @@ function upVoteButton(id) {
     	url:"../php/update/updateUpVoteButton.php?id=" + id, //the page containing php script
 	    type: "POST", //request type
 	});
+   
+    //return id != null;
 };
 
+//connect to testUpVoteButtonFunc.js
+module.exports = upVoteButton;
+
 function downVoteButton(id) {
+
     // downVote += 1;
     // document.getElementById("not_understand_counter").innerHTML = downVote;
     $.ajax({
