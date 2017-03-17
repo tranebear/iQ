@@ -25,7 +25,7 @@ function upVoteButton(id) {
 };
 
 //connect to testUpVoteButtonFunc.js
-module.exports = upVoteButton;
+//module.exports = upVoteButton;
 
 function downVoteButton(id) {
 
