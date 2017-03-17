@@ -42,3 +42,6 @@ function writeCleaner() {
 	});
 };
 
+
+// var div_contents = $("#speak_up_counter").html();
+// $.post('updateCounterToDb.php', { contents: div_contents });
