@@ -28,3 +28,9 @@
 	</div>
 </div>
 
+<script type="text/javascript">
+	setInterval(function(){
+	   	$('#speak_up_counter').load('http://org.ntnu.no/tdt4140iq/iQ/php/fetch/fetchSpeakCounterFromDb.php');
+	}, 10000);
+
+</script>
