@@ -37,7 +37,7 @@ function writeCleaner() {
     writeCleanerClicks += 1;
     document.getElementById("write_cleaner_counter").innerHTML = writeCleanerClicks;
     $.ajax({
-    	url:"../php/update/updateWriteCounterToDb.php", //the page containing php script
-	    type: "POST", //request type
-	});
+        url:"../php/update/updateWriteCounterToDb.php", //the page containing php script
+        type: "POST", //request type
+    });
 };
