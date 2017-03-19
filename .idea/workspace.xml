@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4e4d6062-61c2-4868-b9f6-e77396eb2727" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/reactButtons.js" afterPath="$PROJECT_DIR$/js/reactButtons.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/fetch/fetchNotUnderstandCounterFromDb.php" afterPath="$PROJECT_DIR$/php/fetch/fetchNotUnderstandCounterFromDb.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/fetch/fetchSpeakCounterFromDb.php" afterPath="$PROJECT_DIR$/php/fetch/fetchSpeakCounterFromDb.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/fetch/fetchWriteCounterFromDb.php" afterPath="$PROJECT_DIR$/php/fetch/fetchWriteCounterFromDb.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/forms/reactButtonForms.php" afterPath="$PROJECT_DIR$/php/forms/reactButtonForms.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,21 +28,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reactButtonForms.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="reactButtonForms.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/forms/reactButtonForms.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="558">
+              <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reactButtons.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="reactButtons.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/reactButtons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+            <state relative-caret-position="567">
+              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,11 +110,11 @@
       <list>
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/php/index.php" />
-        <option value="$PROJECT_DIR$/php/forms/reactButtonForms.php" />
-        <option value="$PROJECT_DIR$/js/reactButtons.js" />
         <option value="$PROJECT_DIR$/php/fetch/fetchNotUnderstandCounterFromDb.php" />
         <option value="$PROJECT_DIR$/php/fetch/fetchSpeakCounterFromDb.php" />
         <option value="$PROJECT_DIR$/php/fetch/fetchWriteCounterFromDb.php" />
+        <option value="$PROJECT_DIR$/js/reactButtons.js" />
+        <option value="$PROJECT_DIR$/php/forms/reactButtonForms.php" />
       </list>
     </option>
   </component>
@@ -348,7 +345,7 @@
       <workItem from="1489928821614" duration="346000" />
       <workItem from="1489929193452" duration="223000" />
       <workItem from="1489929459843" duration="703000" />
-      <workItem from="1489930317114" duration="4099000" />
+      <workItem from="1489930317114" duration="4520000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed = to : in flex. This caused an error">
       <created>1489933776289</created>
@@ -361,7 +358,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5371000" />
+    <option name="totallyTimeSpent" value="5792000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="754" extended-state="0" />
@@ -446,11 +443,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/forms/reactButtonForms.php">
+    <entry file="file://$PROJECT_DIR$/php/fetch/fetchQuestionFromDb.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1489928792000" expanded="true" signature="472:515" ph="SELECT * FRO... QUESTION" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -464,20 +463,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/fetch/fetchQuestionFromDb.php">
+    <entry file="file://$PROJECT_DIR$/js/reactButtons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1489928792000" expanded="true" signature="472:515" ph="SELECT * FRO... QUESTION" />
-          </folding>
+        <state relative-caret-position="567">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/reactButtons.js">
+    <entry file="file://$PROJECT_DIR$/php/forms/reactButtonForms.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        <state relative-caret-position="558">
+          <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
           <folding />
         </state>
       </provider>
