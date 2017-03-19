@@ -12,9 +12,10 @@ var downVote;
 // }
 
 
-function upVoteButton(id) {
+function upVoteButton() {
     // upVote += 1;
     // document.getElementById("speak_up_counter").innerHTML = upVote;
+    var id = $(this).data("id");
 
     $.ajax({
     	url:"../php/update/updateUpVoteButton.php?id=" + id, //the page containing php script

@@ -55,6 +55,8 @@
 		setInterval(function(){
 	   		$('#content').load('http://org.ntnu.no/tdt4140iq/iQ/php/fetch/fetchQuestionFromDb.php');
 		}, 10000);
+
+        $(".upVoteButton").one("click", upVoteButton);
 	</script>
 </body>
 </html>
