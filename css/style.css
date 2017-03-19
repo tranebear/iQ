@@ -59,7 +59,7 @@ Make them on same line*/
 	position: relative;
 	right: 0px;
 	display: inline-block;
-	flex = 1;
+	flex: 1;
 }
 
 /*

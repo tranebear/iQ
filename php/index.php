@@ -24,7 +24,7 @@
 <body>
 <!-- div element for questions, input, buttons and header-->
 
-	<h1>iQ</h1>
+	<h1>Her stod det iQ før</h1>
 	<h5>- Helps questioning for you!</h5>
 
 	<!-- The questionForm shows here-->
