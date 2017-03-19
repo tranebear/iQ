@@ -43,5 +43,19 @@ function writeCleaner() {
 };
 
 
-// var div_contents = $("#speak_up_counter").html();
-// $.post('updateCounterToDb.php', { contents: div_contents });
+<script type="text/javascript">
+
+    //Loading the voting amount from db
+    setInterval(function(){
+        $('#speak_up_counter').load('http://org.ntnu.no/tdt4140iq/iQ/php/fetch/fetchSpeakCounterFromDb.php');
+    }, 10000);
+
+    setInterval(function(){
+        $('#not_understand_counter').load('http://org.ntnu.no/tdt4140iq/iQ/php/fetch/fetchNotUnderstandCounterFromDb.php');
+    }, 10000);
+
+    setInterval(function(){
+        $('#write_cleaner_counter').load('http://org.ntnu.no/tdt4140iq/iQ/php/fetch/fetchWriteCounterFromDb.php');
+    }, 10000);
+
+</script>

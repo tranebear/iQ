@@ -13,7 +13,8 @@ if ($conn->connect_error) {
 } 
 
 // Escape user inputs for security
-$speakCount = $conn->real_escape_string($_REQUEST['speak_up_counter']);
+//Commenting this line out because phpStorm does not like it
+//$speakCount = $conn->real_escape_string($_REQUEST['speak_up_counter']);
 
 // MySQL query for to the database. Fetching counter.
 $sql1 = "SELECT counter  FROM REACT_BUTTONS WHERE button_name = 'not_understand'";
