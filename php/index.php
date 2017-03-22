@@ -55,6 +55,20 @@
 		setInterval(function(){
 	   		$('#content').load('http://org.ntnu.no/tdt4140iq/iQ/php/fetch/fetchQuestionFromDb.php');
 		}, 1000);
+
+
+            var now = new Date();
+            var millisTillNextHour = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 17, 25, 0, 0) - now;
+            if (millisTillNextHour < 0) {
+                millisTillNextHour += 3600000;
+            }
+            setTimeout(function () {
+                setInterval(function () {
+                    alert("Start");
+                    $(document).load('http://org.ntnu.no/tdt4140iq/iQ/php/update/updateDbCleanser.php')
+                },360000);
+            }, millisTillNextHour);
+
 	</script>
 </body>
 </html>
