@@ -58,7 +58,7 @@
 
 
             var now = new Date();
-            var millisTillNextHour = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 17, 25, 0, 0) - now;
+            var millisTillNextHour = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 17, 50, 0, 0) - now;
             if (millisTillNextHour < 0) {
                 millisTillNextHour += 3600000;
             }
