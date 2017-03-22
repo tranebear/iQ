@@ -13,7 +13,9 @@ function addQuestion() {
     
     document.getElementById("content").insertBefore(div, document.getElementById("content").firstChild);
     document.getElementById("question").value = "";
+
 }
+
 
 function questionIsEmpty(question){
     if (question.length < 1) {

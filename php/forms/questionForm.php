@@ -1,7 +1,7 @@
 
 	
 <div class="inputFormWithButton">  
-	<input type="textarea" name="question" id="question" placeholder="Write your question here...">
+	<input type="textarea" maxlength = "200" name="question" id="question" placeholder="Write your question here...">
 </div>
 
 <!-- Denne submit knappen MÅ være en div -->
