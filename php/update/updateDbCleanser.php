@@ -18,7 +18,6 @@ if ($conn->connect_error) {
 // MySQL query to the database.
 //$query1 = "TRUNCATE TABLE QUESTION;";
 $query2 = "UPDATE REACT_BUTTONS SET counter = 0;";
-echo $query2;
 
 //the connection happens here
 //$result1 = $conn->query($query1);
