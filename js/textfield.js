@@ -23,7 +23,6 @@ function questionIsEmpty(question){
 }
 
 
-
 module.exports = questionIsEmpty;
 
 function getRandomColor() {

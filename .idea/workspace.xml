@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e4d6062-61c2-4868-b9f6-e77396eb2727" name="Default" comment="" />
+    <list default="true" id="4e4d6062-61c2-4868-b9f6-e77396eb2727" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/textfield.js" afterPath="$PROJECT_DIR$/js/textfield.js" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +30,8 @@
       <file leaf-file-name="textfield.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/textfield.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="270">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -332,7 +334,7 @@
       <workItem from="1489937798841" duration="1785000" />
       <workItem from="1490010916070" duration="241000" />
       <workItem from="1490011183194" duration="1297000" />
-      <workItem from="1490171508399" duration="1517000" />
+      <workItem from="1490171508399" duration="1757000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed = to : in flex. This caused an error">
       <created>1489933776289</created>
@@ -345,7 +347,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12434000" />
+    <option name="totallyTimeSpent" value="12674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="79" y="23" width="1280" height="754" extended-state="0" />
@@ -787,8 +789,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/textfield.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="270">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
