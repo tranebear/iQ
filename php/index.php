@@ -24,7 +24,7 @@
 <body>
 <!-- div element for questions, input, buttons and header-->
 
-	<h1>Her stod det iQ før</h1>
+	<h1>iQ</h1>
 	<h5>- Helps questioning for you!</h5>
 
 	<!-- The questionForm shows here-->
@@ -54,9 +54,7 @@
 		// function is going to load the questions. It is in milliseconds.
 		setInterval(function(){
 	   		$('#content').load('http://org.ntnu.no/tdt4140iq/iQ/php/fetch/fetchQuestionFromDb.php');
-		}, 10000);
-
-        $(".upVoteButton").one("click", upVoteButton);
+		}, 1000);
 	</script>
 </body>
 </html>
