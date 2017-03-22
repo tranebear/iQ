@@ -1,7 +1,7 @@
 
 <div class="reactButtons">
 	<div id="speak_up">
-		<img src="../png/questionmark.png" >
+		<img src="../png/buttonlouder.png" >
 	</div>
 	
 	
@@ -12,8 +12,8 @@
 
 
 <div class="reactButtons">
-	<button id="not_understand">Not understand</button>
-	
+	<!--<button id="not_understand">Not understand</button>-->
+        <img src="../png/buttonquestion.png" >
 	<div id="not_understand_counter" class="counters">
 		<?php include 'fetch/fetchNotUnderstandCounterFromDb.php';?>
 	</div>
@@ -21,8 +21,9 @@
 
 
 <div class="reactButtons">
+    <img src="../png/buttonbigger.png" >
     <!--<button id="write_cleaner" onclick="$(this.id).one('click',writeCleaner())">Write cleaner</button>-->
-    <button id="write_cleaner">Write cleaner</button>
+    <!--<button id="write_cleaner">Write cleaner</button>-->
 	<div id="write_cleaner_counter" class="counters">
 	<?php include 'fetch/fetchWriteCounterFromDb.php';?>
 	</div>
