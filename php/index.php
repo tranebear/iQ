@@ -54,6 +54,7 @@
 		// function is going to load the questions. It is in milliseconds.
 		setInterval(function(){
 	   		$('#content').load('http://org.ntnu.no/tdt4140iq/iQ/php/fetch/fetchQuestionFromDb.php');
+<<<<<<< HEAD
 		}, 1000);
 
 
@@ -69,6 +70,9 @@
                 },360000);
             }, millisTillNextHour);
 
+=======
+		}, 10000);
+>>>>>>> 07d1b9d5f0d5c95225bc1c21dce88665278a0931
 	</script>
 </body>
 </html>
