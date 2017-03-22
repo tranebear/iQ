@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="4e4d6062-61c2-4868-b9f6-e77396eb2727" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/votingButtons.js" afterPath="$PROJECT_DIR$/js/votingButtons.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/fetch/fetchQuestionFromDb.php" afterPath="$PROJECT_DIR$/php/fetch/fetchQuestionFromDb.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/index.php" afterPath="$PROJECT_DIR$/php/index.php" />
     </list>
+=======
+    <list default="true" id="4e4d6062-61c2-4868-b9f6-e77396eb2727" name="Default" comment="" />
+>>>>>>> 4f4c53812ce26ac4021d3215d30429fbd10c1947
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,23 +27,37 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/index.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="217">
               <caret line="55" column="100" lean-forward="true" selection-start-line="55" selection-start-column="100" selection-end-line="55" selection-end-column="100" />
+=======
+            <state relative-caret-position="315">
+              <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+>>>>>>> 4f4c53812ce26ac4021d3215d30429fbd10c1947
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="votingButtons.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/votingButtons.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="33" column="78" lean-forward="true" selection-start-line="33" selection-start-column="78" selection-end-line="33" selection-end-column="78" />
+=======
+      <file leaf-file-name="questionForm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/forms/questionForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+>>>>>>> 4f4c53812ce26ac4021d3215d30429fbd10c1947
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="updateUpVoteButton.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/update/updateUpVoteButton.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -48,6 +66,24 @@
               <folding>
                 <marker date="1489928792000" expanded="true" signature="499:558" ph="UPDATE QUEST... " />
               </folding>
+=======
+      <file leaf-file-name="reactButtonForms.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/forms/reactButtonForms.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reactButtons.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/reactButtons.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+              <folding />
+>>>>>>> 4f4c53812ce26ac4021d3215d30429fbd10c1947
             </state>
           </provider>
         </entry>
@@ -132,6 +168,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="iQ" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iQ" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="png" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -358,8 +408,12 @@
       <workItem from="1489937798841" duration="1785000" />
       <workItem from="1490010916070" duration="241000" />
       <workItem from="1490011183194" duration="1297000" />
+<<<<<<< HEAD
       <workItem from="1490171508399" duration="3798000" />
       <workItem from="1490182405651" duration="1193000" />
+=======
+      <workItem from="1490171508399" duration="4884000" />
+>>>>>>> 4f4c53812ce26ac4021d3215d30429fbd10c1947
     </task>
     <task id="LOCAL-00001" summary="Fixed = to : in flex. This caused an error">
       <created>1489933776289</created>
@@ -372,7 +426,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="15908000" />
+=======
+    <option name="totallyTimeSpent" value="15801000" />
+>>>>>>> 4f4c53812ce26ac4021d3215d30429fbd10c1947
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="754" extended-state="0" />
@@ -758,6 +816,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/php/insert/insertQuestionToDb.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-150">
@@ -784,6 +843,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 4f4c53812ce26ac4021d3215d30429fbd10c1947
     <entry file="file://$PROJECT_DIR$/js/textfield.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -812,18 +873,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/index.php">
+    <entry file="file://$PROJECT_DIR$/php/forms/questionForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="55" column="100" lean-forward="true" selection-start-line="55" selection-start-column="100" selection-end-line="55" selection-end-column="100" />
+        <state relative-caret-position="45">
+          <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/php/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="217">
+          <caret line="55" column="100" lean-forward="true" selection-start-line="55" selection-start-column="100" selection-end-line="55" selection-end-column="100" />
+=======
+        <state relative-caret-position="315">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+>>>>>>> 4f4c53812ce26ac4021d3215d30429fbd10c1947
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/js/votingButtons.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="33" column="78" lean-forward="true" selection-start-line="33" selection-start-column="78" selection-end-line="33" selection-end-column="78" />
+=======
+    <entry file="file://$PROJECT_DIR$/php/forms/reactButtonForms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+>>>>>>> 4f4c53812ce26ac4021d3215d30429fbd10c1947
           <folding />
         </state>
       </provider>
