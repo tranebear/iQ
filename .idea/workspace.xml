@@ -338,7 +338,7 @@
       <workItem from="1489937798841" duration="1785000" />
       <workItem from="1490010916070" duration="241000" />
       <workItem from="1490011183194" duration="1297000" />
-      <workItem from="1490171508399" duration="4741000" />
+      <workItem from="1490171508399" duration="4884000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed = to : in flex. This caused an error">
       <created>1489933776289</created>
@@ -351,7 +351,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15658000" />
+    <option name="totallyTimeSpent" value="15801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="79" y="23" width="1280" height="754" extended-state="0" />
