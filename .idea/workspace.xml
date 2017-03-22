@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e4d6062-61c2-4868-b9f6-e77396eb2727" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/iQ.iml" afterPath="$PROJECT_DIR$/.idea/iQ.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/textfield.js" afterPath="$PROJECT_DIR$/js/textfield.js" />
-    </list>
+    <list default="true" id="4e4d6062-61c2-4868-b9f6-e77396eb2727" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -336,7 +332,7 @@
       <workItem from="1489937798841" duration="1785000" />
       <workItem from="1490010916070" duration="241000" />
       <workItem from="1490011183194" duration="1297000" />
-      <workItem from="1490171508399" duration="1423000" />
+      <workItem from="1490171508399" duration="1517000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed = to : in flex. This caused an error">
       <created>1489933776289</created>
@@ -349,7 +345,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12340000" />
+    <option name="totallyTimeSpent" value="12434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="79" y="23" width="1280" height="754" extended-state="0" />
