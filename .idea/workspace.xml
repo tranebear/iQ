@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e4d6062-61c2-4868-b9f6-e77396eb2727" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/iQ.iml" afterPath="$PROJECT_DIR$/.idea/iQ.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/votingButtons.js" afterPath="$PROJECT_DIR$/js/votingButtons.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/fetch/fetchQuestionFromDb.php" afterPath="$PROJECT_DIR$/php/fetch/fetchQuestionFromDb.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/index.php" afterPath="$PROJECT_DIR$/php/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/textfield.js" afterPath="$PROJECT_DIR$/js/textfield.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,18 +22,28 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+            <state relative-caret-position="315">
+              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="votingButtons.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="textfield.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/textfield.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="votingButtons.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/votingButtons.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+              <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -43,8 +52,8 @@
       <file leaf-file-name="reactButtonForms.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/forms/reactButtonForms.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="65" column="25" lean-forward="false" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+            <state relative-caret-position="375">
+              <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -53,8 +62,8 @@
       <file leaf-file-name="reactButtons.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/reactButtons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="345">
+              <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -65,9 +74,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
               <caret line="28" column="214" lean-forward="false" selection-start-line="28" selection-start-column="202" selection-end-line="28" selection-end-column="214" />
-              <folding>
-                <marker date="1489955732000" expanded="true" signature="472:515" ph="SELECT * FRO... QUESTION" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,9 +88,6 @@
       <GitPushTagMode />
     </option>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -96,6 +100,7 @@
         <option value="$PROJECT_DIR$/php/fetch/fetchQuestionFromDb.php" />
         <option value="$PROJECT_DIR$/js/votingButtons.js" />
         <option value="$PROJECT_DIR$/php/index.php" />
+        <option value="$PROJECT_DIR$/js/textfield.js" />
       </list>
     </option>
   </component>
@@ -105,9 +110,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP from XAMPP" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP from XAMPP">
+    <include_path>
+      <path value="" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="x" value="79" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="754" />
   </component>
@@ -127,6 +137,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,9 +214,22 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iQ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iQ" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,6 +334,9 @@
       <workItem from="1489929459843" duration="703000" />
       <workItem from="1489930317114" duration="5511000" />
       <workItem from="1489937798841" duration="1785000" />
+      <workItem from="1490010916070" duration="241000" />
+      <workItem from="1490011183194" duration="1297000" />
+      <workItem from="1490171508399" duration="1423000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed = to : in flex. This caused an error">
       <created>1489933776289</created>
@@ -322,10 +349,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9379000" />
+    <option name="totallyTimeSpent" value="12340000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="754" extended-state="0" />
+    <frame x="79" y="23" width="1280" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20546874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -333,20 +360,20 @@
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38832116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38832116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,6 +391,78 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/votingButtons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/forms/reactButtonForms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="25" lean-forward="false" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/reactButtons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/fetch/fetchQuestionFromDb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="214" lean-forward="false" selection-start-line="28" selection-start-column="202" selection-end-line="28" selection-end-column="214" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/votingButtons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/forms/reactButtonForms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="25" lean-forward="false" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/reactButtons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/fetch/fetchQuestionFromDb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="214" lean-forward="false" selection-start-line="28" selection-start-column="202" selection-end-line="28" selection-end-column="214" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/php/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -392,9 +491,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1489936047000" expanded="true" signature="545:616" ph="SELECT count... REACT_BUTTONS" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -402,9 +499,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1489955732000" expanded="true" signature="472:515" ph="SELECT * FRO... QUESTION" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -412,9 +507,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-          <folding>
-            <marker date="1489936047000" expanded="true" signature="545:610" ph="SELECT count... REACT_BUTTONS" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -422,9 +515,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <marker date="1489936047000" expanded="true" signature="545:615" ph="SELECT count... REACT_BUTTONS" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -456,9 +547,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1489936047000" expanded="true" signature="545:616" ph="SELECT count... REACT_BUTTONS" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -466,9 +555,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1489955732000" expanded="true" signature="472:515" ph="SELECT * FRO... QUESTION" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -476,9 +563,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-          <folding>
-            <marker date="1489936047000" expanded="true" signature="545:610" ph="SELECT count... REACT_BUTTONS" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -486,9 +571,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <marker date="1489936047000" expanded="true" signature="545:615" ph="SELECT count... REACT_BUTTONS" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -511,9 +594,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1489936047000" expanded="true" signature="545:616" ph="SELECT count... REACT_BUTTONS" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -521,9 +602,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <marker date="1489936047000" expanded="true" signature="545:615" ph="SELECT count... REACT_BUTTONS" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -531,9 +610,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-          <folding>
-            <marker date="1489936047000" expanded="true" signature="545:610" ph="SELECT count... REACT_BUTTONS" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -557,9 +634,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <marker date="1489955732000" expanded="true" signature="472:515" ph="SELECT * FRO... QUESTION" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -599,9 +674,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1489936047000" expanded="true" signature="545:616" ph="SELECT count... REACT_BUTTONS" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -609,9 +682,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1489955732000" expanded="true" signature="472:515" ph="SELECT * FRO... QUESTION" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -619,9 +690,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-          <folding>
-            <marker date="1489936047000" expanded="true" signature="545:610" ph="SELECT count... REACT_BUTTONS" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -629,9 +698,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <marker date="1489936047000" expanded="true" signature="545:615" ph="SELECT count... REACT_BUTTONS" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -654,9 +721,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="60" lean-forward="false" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-          <folding>
-            <marker date="1489936047000" expanded="true" signature="545:610" ph="SELECT count... REACT_BUTTONS" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -664,9 +729,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <marker date="1489936047000" expanded="true" signature="545:615" ph="SELECT count... REACT_BUTTONS" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -674,24 +737,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <marker date="1489936047000" expanded="true" signature="545:616" ph="SELECT count... REACT_BUTTONS" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/forms/reactButtonForms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="65" column="25" lean-forward="false" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/reactButtons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="345">
+          <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -700,16 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="214" lean-forward="false" selection-start-line="28" selection-start-column="202" selection-end-line="28" selection-end-column="214" />
-          <folding>
-            <marker date="1489955732000" expanded="true" signature="472:515" ph="SELECT * FRO... QUESTION" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -717,7 +760,39 @@
     <entry file="file://$PROJECT_DIR$/js/votingButtons.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/forms/reactButtonForms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/textfield.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
           <folding />
         </state>
       </provider>

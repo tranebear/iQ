@@ -22,6 +22,8 @@ function questionIsEmpty(question){
     return false;
 }
 
+
+
 module.exports = questionIsEmpty;
 
 function getRandomColor() {
