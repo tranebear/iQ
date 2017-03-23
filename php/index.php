@@ -52,41 +52,33 @@
 	<script type="text/javascript">
 		// This is the ajax loading for the question. The last parameter is how often the .load()
 		// function is going to load the questions. It is in milliseconds.
-<<<<<<< HEAD
 
         var highestID = 0;
 
         setInterval(function(){
             $.ajax({
-                url: 'http://org.ntnu.no/tdt4140iq/iQ/php/fetch/fetchQuestionFromDb.php?a=b&highestID' + highestID,
+                url: 'fetch/fetchQuestionFromDb.php?c=d&highestID=' + highestID,
                 cache: false
             })
                 .done(function( html ) {
-                    console.log(html);
-                    $( "#content" ).append(html);
-                    highestID = $("#content").children().last().data("id");
+                    $( "#content" ).prepend(html);
+                    highestID = $("#content").children().first().data("id");
                     console.log(highestID);
                 });
-		}, 10000);
+        }, 1000);
 
 
-=======
-		setInterval(function(){
-	   		$('#content').load('http://org.ntnu.no/tdt4140iq/iQ/php/fetch/fetchQuestionFromDb.php');
-		}, 1000);
 
-
-            var now = new Date();
-            var millisTillNextHour = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 6, 0, 0, 0) - now;
-            if (millisTillNextHour < 0) {
-                millisTillNextHour += 3600000;
-            }
-            setTimeout(function () {
-                setInterval(function () {
-                    $(document).load('http://org.ntnu.no/tdt4140iq/iQ/php/update/updateDbCleanser.php')
-                },3600000);
-            }, millisTillNextHour);
->>>>>>> 1f8fbfbcb335794200c968f788440fae88f34dd1
+        var now = new Date();
+        var millisTillNextHour = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 6, 0, 0, 0) - now;
+        if (millisTillNextHour < 0) {
+            millisTillNextHour += 3600000;
+        }
+        setTimeout(function () {
+            setInterval(function () {
+                $(document).load('http://org.ntnu.no/tdt4140iq/iQ/php/update/updateDbCleanser.php')
+            },3600000);
+        }, millisTillNextHour);
 	</script>
 </body>
 </html>
