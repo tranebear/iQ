@@ -52,9 +52,23 @@
 	<script type="text/javascript">
 		// This is the ajax loading for the question. The last parameter is how often the .load()
 		// function is going to load the questions. It is in milliseconds.
-		setInterval(function(){
-	   		$('#content').load('http://org.ntnu.no/tdt4140iq/iQ/php/fetch/fetchQuestionFromDb.php');
+
+        var highestID = 0;
+
+        setInterval(function(){
+            $.ajax({
+                url: 'http://org.ntnu.no/tdt4140iq/iQ/php/fetch/fetchQuestionFromDb.php?a=b&highestID' + highestID,
+                cache: false
+            })
+                .done(function( html ) {
+                    console.log(html);
+                    $( "#content" ).append(html);
+                    highestID = $("#content").children().last().data("id");
+                    console.log(highestID);
+                });
 		}, 10000);
+
+
 	</script>
 </body>
 </html>
