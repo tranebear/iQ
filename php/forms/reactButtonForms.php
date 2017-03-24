@@ -1,36 +1,44 @@
+<table>
+    <tr>
+        <th>
+            <div class="reactButtons">
+                <div id="speak_up" class="reactButtonsCounter">
+                    <img src="../png/buttonlouder.png" >
 
-<div class="reactButtons">
-	<div id="speak_up">
-		<img src="../png/buttonlouder.png" >
-	</div>
-	
-	
-	<div id="speak_up_counter" class="counters">
-		<?php include 'fetch/fetchSpeakCounterFromDb.php';?>
-	</div>
-</div>
+                    <div id="speak_up_counter" class="counters">
+                        <?php include 'fetch/fetchSpeakCounterFromDb.php';?>
+                    </div>
+                </div>
+            </div>
+        </th>
 
+        <th>
+            <div class="reactButtons">
+                <div id="not_understand" class="reactButtonsCounter">
+                    <img src="../png/buttonquestion.png" >
 
-<div class="reactButtons">
-    <div id="not_understand">
-        <img src="../png/buttonquestion.png" >
-    </div>
-	<div id="not_understand_counter" class="counters">
-		<?php include 'fetch/fetchNotUnderstandCounterFromDb.php';?>
-	</div>
-</div>
+                    <div id="not_understand_counter" class="counters">
+                        <?php include 'fetch/fetchNotUnderstandCounterFromDb.php';?>
+                    </div>
+                </div>
+            </div>
+        </th>
 
+        <th>
+            <div class="reactButtons">
+                <div id="write_cleaner" class="reactButtonsCounter">
+                    <img src="../png/buttonbigger.png" >
 
-<div class="reactButtons">
-    <div id="write_cleaner">
-        <img src="../png/buttonbigger.png" >
-    </div>
-    <!--<button id="write_cleaner" onclick="$(this.id).one('click',writeCleaner())">Write cleaner</button>-->
-    <!--<button id="write_cleaner">Write cleaner</button>-->
-	<div id="write_cleaner_counter" class="counters">
-	<?php include 'fetch/fetchWriteCounterFromDb.php';?>
-	</div>
-</div>
+                    <div id="write_cleaner_counter" class="counters">
+                        <?php include 'fetch/fetchWriteCounterFromDb.php';?>
+                    </div>
+                </div>
+                <!--<button id="write_cleaner" onclick="$(this.id).one('click',writeCleaner())">Write cleaner</button>-->
+                <!--<button id="write_cleaner">Write cleaner</button>-->
+            </div>
+        </th>
+    </tr>
+</table>
 
 <script type="text/javascript">
 

@@ -11,14 +11,11 @@ body{
 }
 
 img {
-    width: 20%;
-    height: 20%;
+	width: 100%;
+	height: 100%;
 }
 
-
-
-
-/*styling input field with submit button. 
+/*styling input field with submit button.
 Make them on same line*/
 .inputFormWithButton{
 	display: inline-block;
@@ -28,13 +25,20 @@ Make them on same line*/
 .reactButtons{
 	display: inline-block;
 	margin-top: 5%;
-
 }
 
 /*position the counter-numbers next to react buttons*/
 .counters{
-	position: relative;
+	position: absolute;
 	display: inline-block;
+	left: 74%;
+	top: 64%;
+	font-size: 150%;
+	z-index: 10;
+}
+
+.reactButtonsCounter {
+	position: relative;
 }
 
 #content, #upVoteContent{
@@ -63,15 +67,16 @@ Make them on same line*/
 
 /*
 .upVoteButton{
-	position: relative;
-	top: 0;
+   position: relative;
+   top: 0;
 }
 
 .totalVotes{
-	
+
 }
 .downVoteButton{
-	position: relative;
-	bottom: 0;
+   position: relative;
+   bottom: 0;
 }
 */
+
