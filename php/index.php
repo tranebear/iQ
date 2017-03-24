@@ -47,6 +47,7 @@
 	<script src="../js/votingButtons.js"></script>
 	<script src="../js/submitButton.js"></script>
 	<script src="../js/setColorInQuestionBoxes.js"></script>
+    <script src="../js/resetCountersAndQuestions.js"></script>
 
 
 	<script type="text/javascript">
@@ -67,17 +68,6 @@
                 });
         }, 1000);
 
-        var now = new Date();
-        var millisTillNextHour = new Date(now.getFullYear(), now.getMonth(), now.getDate(), now.getHours(), 7, 0, 0) - now;
-        if (millisTillNextHour < 0) {
-            millisTillNextHour += 3600000;
-        }
-        function cleanDB() {
-            alert("Start");
-            $(document).load('http://org.ntnu.no/tdt4140iq/iQ/php/update/updateDbCleanser.php');
-            setTimeout(cleanDB,10000);
-        }
-        setTimeout(cleanDB,millisTillNextHour);
 	</script>
 </body>
 </html>
