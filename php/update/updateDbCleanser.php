@@ -16,11 +16,11 @@ if ($conn->connect_error) {
 //$question = $conn->real_escape_string($_REQUEST['question']);
 
 // MySQL query to the database.
-//$query1 = "TRUNCATE TABLE QUESTION;";
+$query1 = "TRUNCATE TABLE QUESTION;";
 $query2 = "UPDATE REACT_BUTTONS SET counter = 0;";
 
 //the connection happens here
-//$result1 = $conn->query($query1);
+$result1 = $conn->query($query1);
 $result2 = $conn->query($query2);
 
 // Close connection
