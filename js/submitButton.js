@@ -1,5 +1,4 @@
 
-
 //Removes nonletters from the input string
 function removeNonLettersFromInput(input) {
     var alfabetet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','æ','ø','å','ñ',' '];
@@ -40,6 +39,9 @@ function isBadWord(inputword) {
     }return false;
 }
 
+//Export functions to testSpec.js
+module.exports = isBadWord;
+
 // input is the String that is submitted. .
 function isBadInput(inputString) {
     var inputArray = returnInputAsArray(removeNonLettersFromInput(inputString));
@@ -49,6 +51,9 @@ function isBadInput(inputString) {
         }
     }return false;
 }
+
+//Export function to testSpec.js
+module.exports = isBadInput;
 
 //Submits the value in question field in questionForm.php when the submitDiv is clicked if it is good input.
 function submitQuestion(question) {

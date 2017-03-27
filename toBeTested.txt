@@ -5,8 +5,8 @@ Testable:
     submitButtons.js
         removeNonLettersFromInput(input)
         returnInputAsArray(input)
-        isBadWord(inputword)
-        isBadInput(inputString)
+        isBadWord(inputword)                Complete
+        isBadInput(inputString)             Complete
 
     textfield.js
         questionIsEmpty(question)
