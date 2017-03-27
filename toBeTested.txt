@@ -1,0 +1,22 @@
+Here are all the functions and other implemented stuff in the program that should be tested.
+--------------------------------------------------------------------------------------------
+
+Testable:
+    submitButtons.js
+        removeNonLettersFromInput(input)
+        returnInputAsArray(input)
+        isBadWord(inputword)
+        isBadInput(inputString)
+
+    textfield.js
+        questionIsEmpty(question)
+
+    fetchQuestoinFromDb.php
+        getQuestionsWithIdHigherThan($highestID)
+
+    Database test
+
+Maybe testable:
+    getRandomColor() from setColorInQuestionBoxes.js
+    textfield.js
+        addQuestion()
