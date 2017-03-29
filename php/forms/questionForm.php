@@ -29,6 +29,9 @@
         cursor: pointer;
     }
 
+    div {
+        border-radius: 7px;
+
 
 
 
@@ -43,6 +46,7 @@
             name="question"
             id="question"
             placeholder="Write your question here...">
+
 
 
 </div>
