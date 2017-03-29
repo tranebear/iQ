@@ -21,7 +21,7 @@ img {
 /*styling input field with submit button.
 Make them on same line*/
 .inputFormWithButton{
-	display: inline-block;
+	isplay: inline-block;
 }
 
 /*Styling reaction buttons, making them on same line*/

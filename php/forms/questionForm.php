@@ -3,7 +3,7 @@
 
 
     input  {
-        width: 400%;
+        width: 100%;
         padding: 12px 20px;
         margin: 8px 0;
         display: inline-block;
@@ -11,11 +11,12 @@
         border-radius: 4px;
         box-sizing: border-box;
         text-align: center;
+
     }
 
     input:hover {
-        background-color: #45a049;
-        display: inline-block;
+        /*background-color: #45a049;*/
+        /*display: inline-block;*/
     }
 
     input[type=submit] {
@@ -31,6 +32,7 @@
 
     div {
         border-radius: 7px;
+        margin:3px;
 
 
 
@@ -52,7 +54,14 @@
 </div>
 
 <!-- Denne submit knappen MÅ være en div -->
-<div id="submit" class="submitClass inputFormWithButton" type="submit" onclick='submitQuestion($("#question").val())' value="Publish" style="background-color:green; width:70px; padding: 10px;">Submit</div>
+<div
+        id="submit"
+        class="submitClass inputFormWithButton"
+        type="submit"
+        onclick='submitQuestion($("#question").val())'
+        value="Publish"
+        style="background-color:green; width:70px; padding: 10px;">Submit
+</div>
 
 
 
