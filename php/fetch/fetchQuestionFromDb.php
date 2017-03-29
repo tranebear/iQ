@@ -30,7 +30,7 @@ function getQuestionsWithIdHigherThan($highestID) {
         // output data of each row
         while($row = $result->fetch_assoc()) {
             /*Returning: <div><div>Question ID: questionTekst</div>   <div> UpVoteButton, <div>totalvote</div> DownVoteButton</div></div><br>*/
-            $content .= "<div class='questionBox' data-id='".$row["id"]."'><div class='questionText' id='".$row["id"]."'>" . "Question " . $row["id"] . ": " . $row["question_text"]."</div>" . "<div class='votebuttons'>" . "<button class='upVoteButton' onClick='upVoteButton(".$row["id"].")'>Up vote</button>". "<div class='totalVotes' id='".$row["id"]."'>".$row["totalvote"]."</div>". "<button class='downVoteButton' onClick='downVoteButton(".$row["id"].")'>Down vote</button>" . "</div></div>";
+            $content .= "<div class='questionBox' data-id='".$row["id"]."'><div class='questionText' id='".$row["id"]."'>" . $row["question_text"]."</div>" . "<div class='votebuttons'>" . "<button class='upVoteButton' onClick='upVoteButton(".$row["id"].", this)'>Up vote</button>". "<div class='totalVotes' id='".$row["id"]."'>".$row["totalvote"]."</div>". "<button class='downVoteButton' onClick='downVoteButton(".$row["id"].", this)'>Down vote</button>" . "</div></div>";
         }
     }
     return $content;

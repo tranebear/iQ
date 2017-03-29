@@ -64,7 +64,6 @@
                 .done(function( html ) {
                     $( "#content" ).prepend(html);
                     highestID = $("#content").children().first().data("id");
-                    console.log(highestID);
                 });
         }, 1000);
 

@@ -2,38 +2,40 @@
 var upVote;
 var downVote;
 
-// if(document.getElementById("speak_up_counter").innerHTML != null){
-// 	upVote 
-// = parseInt(document.getElementById("speak_up_counter").innerHTML);
-// }
+function upVoteButton(id, button) {
+    var totalVoteNumber = document.getElementById(id).parentNode.getElementsByClassName('totalVotes')[0];
 
-// if(document.getElementById("not_understand_counter").innerHTML != null){
-// 	downVote = parseInt(document.getElementById("not_understand_counter").innerHTML);
-// }
+    if(totalVoteNumber.innerHTML != null){
+        upVote = parseInt(totalVoteNumber.innerHTML);
+    }
 
-
-function upVoteButton(id) {
-    // upVote += 1;
-    // document.getElementById("speak_up_counter").innerHTML = upVote;
-    //var id = $(this).data("id");
+    upVote += 1;
+    totalVoteNumber.innerHTML = upVote;
 
     $.ajax({
     	url:"../php/update/updateUpVoteButton.php?id=" + id, //the page containing php script
 	    type: "POST", //request type
 	});
-   
-    //return id != null;
-};
 
-//connect to testUpVoteButtonFunc.js
-//module.exports = upVoteButton;
+    $(button).attr('disabled','disabled');
 
-function downVoteButton(id) {
+}
 
-    // downVote += 1;
-    // document.getElementById("not_understand_counter").innerHTML = downVote;
+
+function downVoteButton(id, button) {
+    var totalVoteNumber = document.getElementById(id).parentNode.getElementsByClassName('totalVotes')[0];
+
+    if(totalVoteNumber.innerHTML != null){
+        downVote = parseInt(totalVoteNumber.innerHTML);
+    }
+
+    downVote -= 1;
+    totalVoteNumber.innerHTML = downVote;
+
     $.ajax({
     	url:"../php/update/updateDownVoteButton.php?id=" + id, //the page containing php script
 	    type: "POST", //request type
 	});
-};
+
+    $(button).attr('disabled','disabled');
+}
