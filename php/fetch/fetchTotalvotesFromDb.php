@@ -1,0 +1,46 @@
+<?php
+$servername = "mysql.stud.ntnu.no";
+$username = "yntran_iq";
+$password = "iqerbest";
+$dbname = "yntran_iq_db";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+// Escape user inputs for security
+//$question = $conn->real_escape_string($_REQUEST['question']);
+
+
+function getTotaltvotes() {
+    $sql2 = "SELECT totalvote FROM `QUESTION`";
+
+    global $conn;
+
+//the connection is happend here
+    $result = $conn->query($sql2);
+
+//if there is more than 0 rows in the databse, fetch the rows. it its generating each question in a div
+    $content = "";
+    if ($result->num_rows > 0) {
+        // output data of each row
+        while($row = $result->fetch_assoc()) {
+            /*Returning: <div><div>Question ID: questionTekst</div>   <div> UpVoteButton, <div>totalvote</div> DownVoteButton</div></div><br>*/
+            $content .= $row["totalvote"] . "<br>";
+        }
+    }
+    return $content;
+// MySQL query for to the database. Fetching counter.
+}
+
+echo getTotaltvotes();
+// Close connection
+$conn->close();
+
+?>
+
+

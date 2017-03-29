@@ -66,7 +66,7 @@
                     highestID = $("#content").children().first().data("id");
                 });
         }, 1000);
-
+        
 	</script>
 </body>
 </html>
