@@ -16,8 +16,9 @@ if ($conn->connect_error) {
 //$question = $conn->real_escape_string($_REQUEST['question']);
 
 
-function getTotaltvotes() {
-    $sql2 = "SELECT totalvote FROM `QUESTION`";
+function getTotaltvotes($voteid) {
+
+    $sql2 = "SELECT totalvote FROM `QUESTION` WHERE id = '$voteid'";
 
     global $conn;
 
@@ -29,15 +30,14 @@ function getTotaltvotes() {
     if ($result->num_rows > 0) {
         // output data of each row
         while($row = $result->fetch_assoc()) {
-            /*Returning: <div><div>Question ID: questionTekst</div>   <div> UpVoteButton, <div>totalvote</div> DownVoteButton</div></div><br>*/
-            $content .= $row["totalvote"] . "<br>";
+            $content .= $row["totalvote"];
         }
     }
     return $content;
 // MySQL query for to the database. Fetching counter.
 }
 
-echo getTotaltvotes();
+echo getTotaltvotes($_GET["id"]);
 // Close connection
 $conn->close();
 

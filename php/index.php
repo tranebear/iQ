@@ -66,7 +66,20 @@
                     highestID = $("#content").children().first().data("id");
                 });
         }, 1000);
-        
+
+
+        setInterval(function(){
+            $("#content").children().each(function() {
+                var id = $(this).data("id");
+                $.ajax({
+                    url: 'fetch/fetchTotalvotesFromDb.php?id=' + id,
+                })
+                    .done(function(votes) {
+                        $(".totalVotes" + id).html(votes);
+                    });
+            });
+        }, 1000);
+
 	</script>
 </body>
 </html>

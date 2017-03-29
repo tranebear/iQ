@@ -3,7 +3,7 @@ var upVote;
 var downVote;
 
 function upVoteButton(id, button) {
-    var totalVoteNumber = document.getElementById(id).parentNode.getElementsByClassName('totalVotes')[0];
+    var totalVoteNumber = document.getElementById(id).parentNode.getElementsByClassName('totalVotes'+id)[0];
 
     if(totalVoteNumber.innerHTML != null){
         upVote = parseInt(totalVoteNumber.innerHTML);
@@ -23,7 +23,7 @@ function upVoteButton(id, button) {
 
 
 function downVoteButton(id, button) {
-    var totalVoteNumber = document.getElementById(id).parentNode.getElementsByClassName('totalVotes')[0];
+    var totalVoteNumber = document.getElementById(id).parentNode.getElementsByClassName('totalVotes'+id)[0];
 
     if(totalVoteNumber.innerHTML != null){
         downVote = parseInt(totalVoteNumber.innerHTML);
