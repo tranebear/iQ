@@ -9,7 +9,7 @@ interface InterfaceQuestionDOTest
 class QuestionDO implements InterfaceQuestionDOTest
 {
 	public function getQuestions($questionId){
-		$db = new PDO("mysql:host=localhost;dbname=yntran_iq_db","yntran_iq","iqerbest");
+		$db = new PDO("mysql:host=mysql.stud.ntnu.no;dbname=yntran_iq_db","yntran_iq","iqerbest");
 
 		$result = $db->query("SELECT question_text FROM QUESTION WHERE id='" . $questionId . "'");
 		$question = string();
