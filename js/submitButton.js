@@ -10,8 +10,12 @@ function removeNonLettersFromInput(input) {
                 result = result + input[i];
             }
         }
-    }return result;
+    }
+    return result;
 }
+
+//Export function to testSpec.js
+module.exports = removeNonLettersFromInput;
 
 //Returns the full sentence string input as an array
 function returnInputAsArray(input) {
@@ -31,7 +35,7 @@ function returnInputAsArray(input) {
 
 //inputword is a single word to be checked against blacklist
 function isBadWord(inputword) {
-    var blackList =['jævla','fitte','kuk','faen','fittekuk','faens','helvete','drittsekk','satan','pokker','jævlig','føkka','fuckings','morraknuller','fuck','fuckings'];
+    var blackList =['jævla','fitte','dust','kuk','faen','fittekuk','faens','helvete','drittsekk','satan','pokker','jævlig','føkka','fuckings','morraknuller','fuck','fuckings'];
     for (var i=0; i < blackList.length; i++) {
         if (inputword == blackList[i]) {
             return true;
