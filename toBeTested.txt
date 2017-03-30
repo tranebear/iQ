@@ -1,9 +1,9 @@
-Here are all the functions and other implemented stuff in the program that should be tested.
+Here are all the functions and other implemented stuff in the program that can be tested.
 --------------------------------------------------------------------------------------------
 
 Testable:
     submitButtons.js
-        removeNonLettersFromInput(input)    InProgress
+        removeNonLettersFromInput(input)    complete
         returnInputAsArray(input)
         isBadWord(inputword)                Complete
         isBadInput(inputString)             Complete
@@ -14,7 +14,9 @@ Testable:
     fetchQuestoinFromDb.php
         getQuestionsWithIdHigherThan($highestID)
 
-    Database test
+    Database Test                           In progress
+
+
 
 Maybe testable:
     getRandomColor() from setColorInQuestionBoxes.js
