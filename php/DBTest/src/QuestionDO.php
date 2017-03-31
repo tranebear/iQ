@@ -13,7 +13,7 @@ class QuestionDO
 	}
 
 	public function getQuestions($questionId) {
-		$result = $this->db->query("SELECT id, question_text FROM QUESTION WHERE id='" . $questionId . "'");
+		$result = $this->db->query("SELECT id, question_text FROM TESTDB WHERE id='" . $questionId . "'");
 		$question = [];
 		$row = $result->fetch(PDO::FETCH_ASSOC);
 		$question = $row;
@@ -23,7 +23,7 @@ class QuestionDO
 	}
 
 	public function insertQuestion() {
-		$statement = $this->db->prepare("INSERT INTO QUESTION (question_text, totalvote) VALUES(:text, :vote)");
+		$statement = $this->db->prepare("INSERT INTO TESTDB (question_text, totalvote) VALUES(:text, :vote)");
 		$statement->execute(array(
 		    "text" => "Foobar",
 		    "vote" => 0
