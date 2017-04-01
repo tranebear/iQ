@@ -19,8 +19,8 @@
         /*display: inline-block;*/
     }
 
-    input[type=submit] {
-        width: 4000%;
+    input [type=submit] {
+        width: 100%;
         background-color: #4CAF50;
         color: white;
         padding: 14px 20px;
@@ -32,7 +32,7 @@
 
     div {
         border-radius: 7px;
-        margin:3px;
+        margin:7px;
 
 
 
@@ -48,21 +48,24 @@
             name="question"
             id="question"
             placeholder="Write your question here...">
-
+    <div
+            type="submit"
+            id="submit"
+            class="submitClass inputFormWithButton"
+            onclick='submitQuestion($("#question").val())'
+            value="Publish"
+            style="background-color:green;
+            width:700px;
+            padding: 10px;
+            ">Submit
+    </div>
 
 
 </div>
 
 <!-- Denne submit knappen MÅ være en div -->
-<div
-        id="submit"
-        class="submitClass inputFormWithButton"
-        type="submit"
-        onclick='submitQuestion($("#question").val())'
-        value="Publish"
-        style="background-color:green; width:70px; padding: 10px;">Submit
-</div>
 
+<div
 
 
 
