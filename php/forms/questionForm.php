@@ -3,14 +3,14 @@
 
 
     input  {
-        width: 100%;
+        width: 77%;
         padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
         border: 1px solid #ccc;
         border-radius: 4px;
         box-sizing: border-box;
         text-align: center;
+        float: left;
+        height: 70px;
 
     }
 
@@ -20,7 +20,7 @@
     }
 
     input [type=submit] {
-        width: 100%;
+        width: 77%;
         background-color: #4CAF50;
         color: white;
         padding: 14px 20px;
@@ -39,7 +39,7 @@
 
 </style>
 
-<div class="inputFormWithButton">
+<div class="inputFormWithButton" style = "height: 70px">
 
 
     <input
@@ -54,10 +54,7 @@
             class="submitClass inputFormWithButton"
             onclick='submitQuestion($("#question").val())'
             value="Publish"
-            style="background-color:green;
-            width:700px;
-            padding: 10px;
-            ">Submit
+            "><p>Submit</p>
     </div>
 
 

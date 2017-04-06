@@ -15,8 +15,28 @@ img {
 	height: 75%;
     display: block;
     margin: auto;
-
 }
+
+img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#submit {
+    background-color: green;
+    width: 23%;
+    padding: 10px;
+    margin-left: 77%;
+    height: 70px;
+    padding-top: 25px;
+}
+
+
+#submit:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
 
 /*styling input field with submit button.
 Make them on same line*/
