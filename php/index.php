@@ -39,7 +39,7 @@
 		
 	</div>
 	<div id = "content">
-        <!-- New questions from the database will apear here-->
+        <!-- New questions from the database will appear here-->
     </div>
 
 	<!-- Here are the js file included. Have to be included at the bottom. -->
@@ -79,6 +79,24 @@
                     });
             });
         }, 1000);
+
+        /*
+        setInterval(function () {
+            ("upVoteContent").innerHTML = $.get('../php/fetch/fetchHighestVotedQuestion.php');
+            console.log("Henter highest")
+        }, 5000);
+        
+
+        setInterval(function () {
+            $.ajax({
+                method: 'get',
+                url: 'fetch/fetchHighestVotedQuestion.php'
+            })
+                .done(function( html ) {
+                    $( "#upVoteContent" ).( "#questionText" ).prepend(html);
+                    //highestID = $("#content").children().first().data("id");
+                });
+        }, 1000);*/
 
 	</script>
 </body>
