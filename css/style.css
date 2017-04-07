@@ -65,6 +65,13 @@ Make them on same line*/
 	position: relative;
 }
 
+#topVoted{
+	background-color: goldenrod;
+	width: 100%;
+	border: 2px solid black;
+	display: flex;
+}
+
 #content, #upVoteContent{
 	margin-top: 5%;
 }
@@ -89,6 +96,10 @@ Make them on same line*/
 	flex: 1;
 }
 
+#leader{
+	font-size: 250%;
+	padding-top: 5%;
+}
 
 /*
 .upVoteButton{
