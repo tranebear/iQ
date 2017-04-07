@@ -80,6 +80,15 @@
             });
         }, 1000);
 
+        setInterval(function(){
+            $.ajax({
+                url: 'fetch/fetchHighestVotedQuestion.php',
+                cache: false
+            })
+                .done(function( html ) {
+                    $( "#upVoteContent" ).html(html);
+                });
+        }, 1000);
         /*
         setInterval(function () {
             ("upVoteContent").innerHTML = $.get('../php/fetch/fetchHighestVotedQuestion.php');
