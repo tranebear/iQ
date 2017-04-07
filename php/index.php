@@ -36,7 +36,7 @@
 
 	<div id = "upVoteContent">
 		<!-- Highest voted questions will appear here -->
-		
+        <script src="../js/topVotedQuestion.js"></script>
 	</div>
 	<div id = "content">
         <!-- New questions from the database will appear here-->
@@ -72,40 +72,13 @@
             $("#content").children().each(function() {
                 var id = $(this).data("id");
                 $.ajax({
-                    url: 'fetch/fetchTotalvotesFromDb.php?id=' + id,
+                    url: 'fetch/fetchTotalvotesFromDb.php?id=' + id
                 })
                     .done(function(votes) {
                         $(".totalVotes" + id).html(votes);
                     });
             });
         }, 1000);
-
-        setInterval(function(){
-            $.ajax({
-                url: 'fetch/fetchHighestVotedQuestion.php',
-                cache: false
-            })
-                .done(function( html ) {
-                    $( "#upVoteContent" ).html(html);
-                });
-        }, 1000);
-        /*
-        setInterval(function () {
-            ("upVoteContent").innerHTML = $.get('../php/fetch/fetchHighestVotedQuestion.php');
-            console.log("Henter highest")
-        }, 5000);
-        
-
-        setInterval(function () {
-            $.ajax({
-                method: 'get',
-                url: 'fetch/fetchHighestVotedQuestion.php'
-            })
-                .done(function( html ) {
-                    $( "#upVoteContent" ).( "#questionText" ).prepend(html);
-                    //highestID = $("#content").children().first().data("id");
-                });
-        }, 1000);*/
 
 	</script>
 </body>
