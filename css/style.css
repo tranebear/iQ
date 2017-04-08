@@ -91,7 +91,7 @@ Make them on same line*/
 }
 .votebuttons{
 	position: relative;
-	right: 0px;
+	right: 0;
 	display: inline-block;
 	flex: 1;
 }
@@ -120,6 +120,23 @@ Make them on same line*/
 	body {
 		margin-left: 10%;
 		margin-right: 10%;
+	}
+
+	#submit {
+		background-color: #F0F8FF;
+		overflow-y:hidden;
+		overflow-x:hidden;
+	}
+}
+@media screen and (max-width: 720px){
+	body {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
+@media screen and (max-width: 560px){
+	body {
+		margin: 0;
 	}
 
 }
