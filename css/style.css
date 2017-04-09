@@ -1,11 +1,14 @@
 
 html{
 	margin: 0;
+	padding: 0;
 }
 
 body{
 	margin-left: 20%;
 	margin-right: 20%;
+	margin-bottom: 0;
+	padding: 0;
 	text-align: center;
 	max-width: 100%;
 	background-color: #F0F8FF;
@@ -58,7 +61,7 @@ Make them on same line*/
 	left: 67%;
 	top: 64%;
 	font-size: 250%;
-	z-index: 10;
+	z-index: 1;
 }
 
 .reactButtonsCounter {
@@ -74,6 +77,7 @@ Make them on same line*/
 
 #content, #upVoteContent{
 	margin-top: 5%;
+	margin-left: 0;
 }
 
 .questionBox{
@@ -122,21 +126,119 @@ Make them on same line*/
 		margin-right: 10%;
 	}
 
-	#submit {
-		background-color: #F0F8FF;
-		overflow-y:hidden;
-		overflow-x:hidden;
+	div {
+		margin: 0;
 	}
+
+	#content {
+		overflow-y: scroll;
+		padding-bottom: 40%;
+		margin: 0;
+		max-height: 20%;
+	}
+
+	table {
+		position: fixed;
+		bottom: 9%;
+		left: 0;
+		background-color: #F0F8FF;
+		z-index: 2;
+		margin-left: 10%;
+		margin-right: 10%;
+		padding-bottom: 9%;
+	}
+
+	img {
+		width: 50%;
+		height: 50%;
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+
+	.counters {
+		left: 57%;
+		top: 47%;
+	}
+
+	.reactButtons {
+		height: 50%;
+		margin: 0;
+		padding: 0;
+	}
+
+	div.inputFormWithButton{
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		z-index: 3;
+		padding: 0;
+		margin: 0;
+		background-color: #F0F8FF;;
+		border-radius: 7px;
+	}
+
+	#question {
+		width: 76.9%;
+		border: 3px solid black;
+	}
+
+	#submit {
+		position: fixed;
+		right: 10%;
+		bottom: 0;
+		overflow-y: hidden;
+		overflow-x: hidden;
+		width: 23%;
+		background-color: green;
+		padding: 0;
+		margin-left: 77%;
+		z-index: 2;
+		border: 3px solid black;
+	}
+
 }
-@media screen and (max-width: 720px){
+
+@media screen and (max-width: 768px) {
+
 	body {
 		margin-left: 5%;
 		margin-right: 5%;
 	}
-}
-@media screen and (max-width: 560px){
-	body {
-		margin: 0;
+
+	table {
+		bottom: 6%;
+		margin-left: 5%;
+		margin-right: 5%;
+		padding-bottom: 6%;
 	}
 
+	.counters {
+		left: 56%;
+		top: 47%;
+		font-size: 200%;
+	}
 }
+
+@media screen and (max-width: 414px) {
+
+	body {
+		margin-left: 0.1%;
+		margin-right: 0.1%;
+	}
+
+	table {
+		bottom: 10%;
+		margin-left: 0.1%;
+		margin-right: 0.1%;
+		padding-bottom: 10%;
+	}
+
+	.counters {
+		left: 54%;
+		top: 42%;
+		font-size: 100%;
+	}
+}
+
+
