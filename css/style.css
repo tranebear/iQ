@@ -13,6 +13,11 @@ body{
 	max-width: 100%;
 	background-color: #F0F8FF;
 }
+
+div {
+	margin: 7px 0 7px 0;
+	border-radius: 7px;
+}
 /*Size of reactbuttons*/
 img {
 	width: 75%;
@@ -24,6 +29,32 @@ img {
 img:hover {
     cursor: pointer;
     opacity: 0.5;
+}
+
+input  {
+	width: 77%;
+	padding: 12px 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	text-align: center;
+	float: left;
+	height: 70px;
+}
+
+input [type=submit] {
+	width: 77%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+table {
+	background-color: #F0F8FF;;
 }
 
 #submit {
@@ -46,6 +77,7 @@ img:hover {
 Make them on same line*/
 .inputFormWithButton{
 	/*display: inline-block;*/
+	height: 70px;
 }
 
 /*Styling reaction buttons, making them on same line*/
@@ -127,11 +159,10 @@ Make them on same line*/
 	}
 
 	div {
-		margin: 0;
+		margin: 7px 0 7px 0;
 	}
 
 	#content {
-		overflow-y: scroll;
 		padding-bottom: 40%;
 		margin: 0;
 		max-height: 20%;
@@ -139,12 +170,10 @@ Make them on same line*/
 
 	table {
 		position: fixed;
-		bottom: 9%;
+		bottom: 6%;
 		left: 0;
 		background-color: #F0F8FF;
 		z-index: 2;
-		margin-left: 10%;
-		margin-right: 10%;
 		padding-bottom: 9%;
 	}
 
@@ -155,15 +184,15 @@ Make them on same line*/
 		margin-top: 0;
 	}
 
-	.counters {
-		left: 57%;
-		top: 47%;
-	}
-
 	.reactButtons {
 		height: 50%;
 		margin: 0;
 		padding: 0;
+	}
+
+	.counters {
+		left: 60%;
+		top: 55%;
 	}
 
 	div.inputFormWithButton{
@@ -174,13 +203,8 @@ Make them on same line*/
 		z-index: 3;
 		padding: 0;
 		margin: 0;
-		background-color: #F0F8FF;;
+		background-color: #F0F8FF;
 		border-radius: 7px;
-	}
-
-	#question {
-		width: 76.9%;
-		border: 3px solid black;
 	}
 
 	#submit {
@@ -191,9 +215,13 @@ Make them on same line*/
 		overflow-x: hidden;
 		width: 23%;
 		background-color: green;
-		padding: 0;
 		margin-left: 77%;
 		z-index: 2;
+		border: 3px solid black;
+	}
+
+	#question {
+		width: 76.9%;
 		border: 3px solid black;
 	}
 
@@ -201,27 +229,42 @@ Make them on same line*/
 
 @media screen and (max-width: 768px) {
 
+	/* Generak properties */
+
+	table {
+		background-color: #F0F8FF;
+	}
+
+	/* Width properties */
 	body {
 		margin-left: 5%;
 		margin-right: 5%;
 	}
 
 	table {
-		bottom: 6%;
-		margin-left: 5%;
-		margin-right: 5%;
-		padding-bottom: 6%;
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 
 	.counters {
-		left: 56%;
-		top: 47%;
-		font-size: 200%;
+		left: 60%;
 	}
+
+	/* Height properties */
+
+	table {
+		bottom: 6%;
+		padding-bottom: 20%;
+	}
+
+	.counters {
+		top: 55%;
+		font-size: 150%;
+	}
+
 }
 
 @media screen and (max-width: 414px) {
-
 	body {
 		margin-left: 0.1%;
 		margin-right: 0.1%;
@@ -235,10 +278,24 @@ Make them on same line*/
 	}
 
 	.counters {
-		left: 54%;
-		top: 42%;
+		left: 60%;
+		top: 45%;
 		font-size: 100%;
 	}
 }
 
+@media screen and (max-width: 320px) {
 
+	table {
+		bottom: 11%;
+		margin-left: 0.1%;
+		margin-right: 0.1%;
+		padding-bottom: 11%;
+	}
+
+	.counters {
+		left: 60%;
+		top: 42%;
+		font-size: 100%;
+	}
+}
