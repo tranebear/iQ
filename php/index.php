@@ -11,15 +11,15 @@
 
 	<!-- Links to css stylesheet-->
 	<link type="text/css" rel="stylesheet" href="../css/style.css">
-	
+
 	<!-- This is the ajax / jquery library packet. It allows us to use ajax and jquery in the code -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 	<!-- This is bootstrap library packet. It allowas us to use bootstrap in the code -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<title>iQ</title>
-   	
-	
+
+
 </head>
 <body>
 <!-- div element for questions, input, buttons and header-->
@@ -30,7 +30,7 @@
 	<!-- The questionForm shows here-->
 	<?php include 'forms/questionForm.php';?>
 	
-	
+
 	<!-- The react buttons will be shown here -->
 	<?php include 'forms/reactButtonForms.php';?>
 
