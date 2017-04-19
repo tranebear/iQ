@@ -7,7 +7,8 @@
             maxlength = "200"
             name="question"
             id="question"
-            placeholder="Write your question here..."></textarea>
+            placeholder="Write your question here..."
+            required></textarea>
     <div
             type="submit"
             id="submit"
