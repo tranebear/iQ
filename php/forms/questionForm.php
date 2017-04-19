@@ -2,12 +2,12 @@
 <div class="inputFormWithButton">
 
 
-    <input
+    <textarea
             type="text"
             maxlength = "200"
             name="question"
             id="question"
-            placeholder="Write your question here...">
+            placeholder="Write your question here..."></textarea>
     <div
             type="submit"
             id="submit"

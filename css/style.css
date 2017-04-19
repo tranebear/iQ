@@ -31,13 +31,14 @@ img:hover {
     opacity: 0.5;
 }
 
-input  {
+textarea {
+	word-break: break-all;
 	width: 77%;
 	padding: 12px 20px;
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	box-sizing: border-box;
-	text-align: center;
+	text-align: left;
 	float: left;
 	height: 70px;
 }
@@ -51,6 +52,11 @@ input [type=submit] {
 	border: none;
 	border-radius: 4px;
 	cursor: pointer;
+}
+
+button {
+	background-color: inherit;
+	border: none;
 }
 
 table {
@@ -205,9 +211,7 @@ Make them on same line*/
 	}
 
 	#content {
-		padding-bottom: 100%;
 		margin: 0;
-		max-height: 20%;
 	}
 
 	table {
@@ -269,6 +273,10 @@ Make them on same line*/
 		border: 1px solid black;
 	}
 
+	.questionBox:last-of-type {
+		margin-bottom: 250px;
+	}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -283,6 +291,7 @@ Make them on same line*/
 	body {
 		margin-left: 5%;
 		margin-right: 5%;
+		margin-bottom: 20%;
 	}
 
 	table {
@@ -313,6 +322,7 @@ Make them on same line*/
 	#submit {
 		height: 8%;
 	}
+
 }
 
 @media screen and (max-width: 414px) {
@@ -333,14 +343,13 @@ Make them on same line*/
 		top: 45%;
 		font-size: 100%;
 	}
+
 }
 
 @media screen and (max-width: 320px) {
 
 	table {
 		bottom: 8%;
-		margin-left: 0.1%;
-		margin-right: 0.1%;
 		padding-bottom: 8%;
 	}
 
@@ -349,4 +358,5 @@ Make them on same line*/
 		top: 42%;
 		font-size: 100%;
 	}
+
 }
