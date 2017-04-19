@@ -3,7 +3,7 @@
         <th>
             <div class="reactButtons">
                 <div id="speak_up" class="reactButtonsCounter">
-                    <img src="../png/iq newbigger.png" >
+                    <img title="Click this button to make the lecturer speak up." src="../png/iq newlouder.png">
 
                     <div id="speak_up_counter" class="counters">
                         <?php include 'fetch/fetchSpeakCounterFromDb.php';?>
@@ -15,7 +15,7 @@
         <th>
             <div class="reactButtons">
                 <div id="not_understand" class="reactButtonsCounter">
-                    <img src="../png/iq newq.png" >
+                    <img title="Click this button if you don't understand what the lecturer is talking about." src="../png/iq newq.png" >
 
                     <div id="not_understand_counter" class="counters">
                         <?php include 'fetch/fetchNotUnderstandCounterFromDb.php';?>
@@ -27,7 +27,7 @@
         <th>
             <div class="reactButtons">
                 <div id="write_cleaner" class="reactButtonsCounter">
-                    <img src="../png/iq newlouder.png" >
+                    <img title="Click this button if you can't see what the lecturer is writing." src="../png/iq newbigger.png" >
 
                     <div id="write_cleaner_counter" class="counters">
                         <?php include 'fetch/fetchWriteCounterFromDb.php';?>

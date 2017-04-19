@@ -1,14 +1,3 @@
-/**var questionIsEmpty = require('../js/textfield');
-
-describe('Textfield', function(){
-	it('should not be empty', function(){
-		
-		expect(questionIsEmpty("")).toEqual(true);
-	});
-});
-
- **/
-
 var isBadWord = require('../js/submitButton');
 var isBadInput = require('../js/submitButton');
 var removeNonLettersFromInput = require('../js/submitButton');
@@ -22,17 +11,10 @@ describe('Inputfield', function () {
     });
     var str;
     it('has been modified. NoneLetters is removed. ', function () {
-        str = removeNonLettersFromInput("d.u.s.t");
-        expect(str).not.toEqual("dust");
+        expect(removeNonLettersFromInput("d.u.s.t")).toEqual("dust");
     });
 });
 
-
-/**describe('Remove nonletters...', function () {
-    it('like colon ":" ', function () {
-        expect(removeNonLettersFromInput("De:nne lin:jen h:ar ingen kolon.:")).toEqual("denne linjen har ingen kolon.");
-    });
-})**/
 
 
 
