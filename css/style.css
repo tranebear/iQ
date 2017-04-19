@@ -90,8 +90,8 @@ Make them on same line*/
 .counters{
 	position: absolute;
 	display: inline-block;
-	left: 67%;
-	top: 64%;
+	left: 66%;
+	top: 57%;
 	font-size: 250%;
 	z-index: 1;
 }
@@ -112,10 +112,6 @@ Make them on same line*/
 	margin-top: 5%;
 	margin-left: 0;
 	height: 140px;
-}
-
-#upVoteContent {
-
 }
 
 .questionBox{
@@ -144,13 +140,14 @@ Make them on same line*/
 
 #topText{
 	position: absolute;
-	height: 15%;
+	height: 20%;
 	width: 100%;
 	padding-top: 0;
 	border-bottom: 1px solid black;
 	border-radius: 0;
 	display: block;
-	font-size: 75%;
+	font-size: 125%;
+	font-weight: bold;
 }
 
 #left {
@@ -208,18 +205,18 @@ Make them on same line*/
 	}
 
 	#content {
-		padding-bottom: 40%;
+		padding-bottom: 100%;
 		margin: 0;
 		max-height: 20%;
 	}
 
 	table {
 		position: fixed;
-		bottom: 6%;
+		bottom: 10%;
 		left: 0;
 		background-color: #F0F8FF;
 		z-index: 2;
-		padding-bottom: 9%;
+		padding-bottom: 10%;
 	}
 
 	img {
@@ -250,6 +247,7 @@ Make them on same line*/
 		margin: 0;
 		background-color: #F0F8FF;
 		border-radius: 7px;
+		height: 10%;
 	}
 
 	#submit {
@@ -262,19 +260,20 @@ Make them on same line*/
 		background-color: green;
 		margin-left: 77%;
 		z-index: 2;
-		border: 3px solid black;
+		border: 1px solid black;
+		height: 10%;
 	}
 
 	#question {
 		width: 76.9%;
-		border: 3px solid black;
+		border: 1px solid black;
 	}
 
 }
 
 @media screen and (max-width: 768px) {
 
-	/* Generak properties */
+	/* General properties */
 
 	table {
 		background-color: #F0F8FF;
@@ -298,7 +297,7 @@ Make them on same line*/
 	/* Height properties */
 
 	table {
-		bottom: 6%;
+		bottom: 8%;
 		padding-bottom: 20%;
 	}
 
@@ -307,6 +306,13 @@ Make them on same line*/
 		font-size: 150%;
 	}
 
+	div.inputFormWithButton{
+		height: 8%;
+	}
+
+	#submit {
+		height: 8%;
+	}
 }
 
 @media screen and (max-width: 414px) {
@@ -316,10 +322,10 @@ Make them on same line*/
 	}
 
 	table {
-		bottom: 9%;
+		bottom: 8%;
 		margin-left: 0.1%;
 		margin-right: 0.1%;
-		padding-bottom: 9%;
+		padding-bottom: 8%;
 	}
 
 	.counters {
@@ -332,10 +338,10 @@ Make them on same line*/
 @media screen and (max-width: 320px) {
 
 	table {
-		bottom: 11%;
+		bottom: 8%;
 		margin-left: 0.1%;
 		margin-right: 0.1%;
-		padding-bottom: 11%;
+		padding-bottom: 8%;
 	}
 
 	.counters {

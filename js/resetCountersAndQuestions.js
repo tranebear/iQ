@@ -4,7 +4,7 @@ var hour = new Date(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), n
 var millisToNextHour = hour - now; // Next hour in milliseconds
 
 if (millisToNextHour > 0) {
-    console.log("Minutes until database cleaner runs: " + millisToNextHour/(1000*60));
+    //console.log("Minutes until database cleaner runs: " + millisToNextHour/(1000*60));
     setTimeout(cleanDB, millisToNextHour);
 }
 
