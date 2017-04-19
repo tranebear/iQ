@@ -105,11 +105,17 @@ Make them on same line*/
 	width: 100%;
 	border: 2px solid black;
 	display: flex;
+	position: relative;
 }
 
 #content, #upVoteContent{
 	margin-top: 5%;
 	margin-left: 0;
+	height: 140px;
+}
+
+#upVoteContent {
+
 }
 
 .questionBox{
@@ -132,9 +138,48 @@ Make them on same line*/
 	flex: 1;
 }
 
-#leader{
+#topVoted {
+	height: 100%;
+}
+
+#topText{
+	position: absolute;
+	height: 15%;
+	width: 100%;
+	padding-top: 0;
+	border-bottom: 1px solid black;
+	border-radius: 0;
+	display: block;
+	font-size: 75%;
+}
+
+#left {
+	position: absolute;
+	top: 0;
+	left: 5%;
+}
+
+#right {
+	position: absolute;
+	top: 0;
+	right: 5%;
+}
+
+#topVotedText {
+	position: absolute;
+	top: 25%;
+	width: 90%;
+	padding: 5px 5px 5px 5%;
+	display: block;
+	text-align: left;
+}
+
+#topVotedTotalVotes {
+	position: absolute;
+	right: 5%;
+	top: 30%;
+	display: block;
 	font-size: 250%;
-	padding-top: 5%;
 }
 
 /*
