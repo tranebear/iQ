@@ -66,6 +66,7 @@ function submitQuestion(question) {
             url:"../php/insert/insertQuestionToDb.php?question=" + question, //the page containing php script
             type: "POST", //request type
         });
+        $('#question').val('');
     }if (isBadInput(question)) {
         alert("Watch your language!!");
     }

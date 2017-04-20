@@ -13,7 +13,7 @@
             type="submit"
             id="submit"
             class="submitClass inputFormWithButton"
-            onclick='submitQuestion($("#question").val())'
+            onclick="submitQuestion($('#question').val())"
             value="Publish"
             ><p>Submit</p>
     </div>
