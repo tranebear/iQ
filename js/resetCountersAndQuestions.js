@@ -11,10 +11,11 @@ if (millisToNextHour > 0) {
 
 function cleanDB() {
     $.get('../php/update/updateDbCleanser.php');//'http://org.ntnu.no/tdt4140iq/iQ/php/update/updateDbCleanser.php'
-    $("#content").children().each(function() {
+    document.getElementById("content").innerHTML = "";
+    /*$("#content").children().each(function() {
         this.parentNode.removeChild(this);
         highestID = 0;
-    });
+    });*/
     setTimeout(cleanDB, 3600000);
 }
 

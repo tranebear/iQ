@@ -56,6 +56,18 @@
 
         var highestID = 0;
 
+
+        /*
+        getNewQuestions();
+
+        function getNewQuestions() {
+            if ($("#content").childElementCount == 0) {
+                $("#content").load('fetch/fetchFirstQuestionFromDb.php');
+                setTimeout(getNewQuestions, 1000);
+            }
+        }
+        */
+
         setInterval(function(){
             $.ajax({
                 url: 'fetch/fetchQuestionFromDb.php?c=d&highestID=' + highestID,
