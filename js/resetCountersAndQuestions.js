@@ -1,6 +1,6 @@
 var now = new Date(); // Make new Date() - object
 var diffUTC = now.getHours() - now.getUTCHours();
-var hour = new Date(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), now.getUTCHours()+diffUTC, 55, 0); //Next hour in UTC Time
+var hour = new Date(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), now.getUTCHours()+diffUTC, 4, 0); //Next hour in UTC Time
 var millisToNextHour = hour - now; // Next hour in milliseconds
 
 if (millisToNextHour > 0) {
@@ -11,6 +11,9 @@ if (millisToNextHour > 0) {
 
 function cleanDB() {
     $.get('../php/update/updateDbCleanser.php');//'http://org.ntnu.no/tdt4140iq/iQ/php/update/updateDbCleanser.php'
+    $("#content").children().each(function() {
+        this.parentNode.removeChild(this)
+    });
     setTimeout(cleanDB, 3600000);
 }
 
