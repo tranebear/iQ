@@ -1,6 +1,6 @@
 var now = new Date(); // Make new Date() - object
 var diffUTC = now.getHours() - now.getUTCHours();
-var hour = new Date(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), now.getUTCHours()+diffUTC, 53, 0); //Next hour in UTC Time
+var hour = new Date(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), now.getUTCHours()+diffUTC+1, 0, 0); //Next hour in UTC Time
 var millisToNextHour = hour - now; // Next hour in milliseconds
 
 if (millisToNextHour > 0) {
