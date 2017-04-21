@@ -32,6 +32,8 @@ function getQuestionMax() {
             /*Returning: <div><div>Question ID: questionTekst</div>   <div> UpVoteButton, <div>totalvote</div> DownVoteButton</div></div><br>*/
             $upVoteContent = "<div id='topVoted' data-id='".$row["id"]."'><div id='topText'><span id='left'>Top Rated Question</span><span id='right'>Total Votes</span></div><div id='topVotedText' id='".$row["id"]."'>" . $row["question_text"]."</div>" . "<div id='topVotedTotalVotes'".$row["id"]."'>".$row["totalvote"]."</div>" . "</div>";
         }
+    } else {
+        $upVoteContent = "<div id='topVoted'><div id='topText'></div><div id='topVotedText'> A new thread has started</div></div>";
     }
     return $upVoteContent;
 // MySQL query for to the database. Fetching counter.
