@@ -15,7 +15,7 @@ function removeNonLettersFromInput(input) {
 }
 
 //Export function to testSpec.js
-module.exports = removeNonLettersFromInput;
+//module.exports = removeNonLettersFromInput;
 
 //Returns the full sentence string input as an array
 function returnInputAsArray(input) {

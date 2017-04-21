@@ -118,15 +118,17 @@ Make them on same line*/
 
 .questionText{
 	width: 90%;
-	padding: 5px;
+	padding: 5px 5px 5px 5%;
 	display: inline-block;
 	text-align: left;
+	font-size: 125%;
 }
 .votebuttons{
 	position: relative;
-	right: 0;
+	right: 1.6%;
 	display: inline-block;
 	flex: 1;
+	font-size: 125%;
 }
 
 #topVoted {
@@ -135,13 +137,13 @@ Make them on same line*/
 
 #topText{
 	position: absolute;
-	height: 20%;
+	height: 25%;
 	width: 100%;
 	padding-top: 0;
 	border-bottom: 1px solid black;
 	border-radius: 0;
 	display: block;
-	font-size: 125%;
+	font-size: 150%;
 	font-weight: bold;
 }
 
@@ -164,6 +166,7 @@ Make them on same line*/
 	padding: 5px 5px 5px 5%;
 	display: block;
 	text-align: left;
+	font-size: 125%;
 }
 
 #topVotedTotalVotes {
