@@ -30,7 +30,7 @@ function getQuestionMax() {
         // output data of each row
         while($row = $result->fetch_assoc()) {
             /*Returning: <div><div>Question ID: questionTekst</div>   <div> UpVoteButton, <div>totalvote</div> DownVoteButton</div></div><br>*/
-            $upVoteContent = "<div id='topVoted' class='questionBox' data-id='".$row["id"]."'><div id='topText'><span id='left'>Top Rated Question</span><span id='right'>Total Votes</span></div><div id='topVotedText' id='".$row["id"]."'>" . $row["question_text"]."</div>" . "<div id='topVotedTotalVotes'".$row["id"]."'>".$row["totalvote"]."</div>" . "</div>";
+            $upVoteContent = "<div id='topVoted' data-id='".$row["id"]."'><div id='topText'><span id='left'>Top Rated Question</span><span id='right'>Total Votes</span></div><div id='topVotedText' id='".$row["id"]."'>" . $row["question_text"]."</div>" . "<div id='topVotedTotalVotes'".$row["id"]."'>".$row["totalvote"]."</div>" . "</div>";
         }
     }
     return $upVoteContent;
