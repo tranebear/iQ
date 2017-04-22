@@ -4,7 +4,7 @@ var hour = new Date(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), n
 var millisToNextHour = hour - now; // Next hour in milliseconds
 
 if (millisToNextHour > 0) {
-    console.log("Minutes until database cleaner runs: " + millisToNextHour/(1000*60));
+    //console.log("Minutes until database cleaner runs: " + millisToNextHour/(1000*60));
     setTimeout(cleanDB, millisToNextHour);
 }
 
@@ -12,10 +12,9 @@ if (millisToNextHour > 0) {
 function cleanDB() {
     $.get('../php/update/updateDbCleanser.php');//'http://org.ntnu.no/tdt4140iq/iQ/php/update/updateDbCleanser.php'
     document.getElementById("content").innerHTML = "";
-    /*$("#content").children().each(function() {
-        this.parentNode.removeChild(this);
-        highestID = 0;
-    });*/
+    if ($(".questionBox").exists()) {
+        $("#content").children().each(this.parentNode.removeChild(this));
+    }
     setTimeout(cleanDB, 3600000);
 }
 
