@@ -64,7 +64,7 @@
 
         function resetHighestID() {
             if (!$(".questionBox").exists()) {
-                highestID = 0
+                highestID = 0;
             }
         }
 
