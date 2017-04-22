@@ -57,18 +57,24 @@
         var highestID = 0;
 
 
-        /*
-        getNewQuestions();
+        //Extend jQuery
+        $.fn.exists = function () {
+            return this.length !== 0;
+        };
 
-        function getNewQuestions() {
-            if ($("#content").childElementCount == 0) {
-                $("#content").load('fetch/fetchFirstQuestionFromDb.php');
-                setTimeout(getNewQuestions, 1000);
+        function resetHighestID() {
+            if (!$(".questionBox").exists()) {
+                highestID = 0
             }
         }
-        */
 
+        resetHighestID();
+
+        setInterval(resetHighestID,1000);
+
+        //Check every second for new questions
         setInterval(function(){
+            console.log("highestID: " + highestID);
             $.ajax({
                 url: 'fetch/fetchQuestionFromDb.php?c=d&highestID=' + highestID,
                 cache: false
@@ -80,6 +86,7 @@
         }, 1000);
 
 
+        //Update totalvotes for each question every second.
         setInterval(function(){
             $("#content").children().each(function() {
                 var id = $(this).data("id");
