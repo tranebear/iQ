@@ -44,7 +44,7 @@ function isBadWord(inputword) {
 }
 
 //Export functions to testSpec.js
-module.exports = isBadWord;
+//module.exports = isBadWord;
 
 // input is the String that is submitted. .
 function isBadInput(inputString) {
@@ -57,7 +57,7 @@ function isBadInput(inputString) {
 }
 
 //Export function to testSpec.js
-module.exports = isBadInput;
+//module.exports = isBadInput;
 
 //Submits the value in question field in questionForm.php when the submitDiv is clicked if it is good input.
 function submitQuestion(question) {

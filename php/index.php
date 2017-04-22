@@ -74,7 +74,6 @@
 
         //Check every second for new questions
         setInterval(function(){
-            console.log("highestID: " + highestID);
             $.ajax({
                 url: 'fetch/fetchQuestionFromDb.php?c=d&highestID=' + highestID,
                 cache: false
