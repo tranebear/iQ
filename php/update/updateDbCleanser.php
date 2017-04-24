@@ -16,6 +16,7 @@ if ($conn->connect_error) {
 
 // MySQL query to the database.
 
+//This sets the react buttons to 0
 function setReactButtons() {
     $query = "UPDATE REACT_BUTTONS SET counter = 0;";
 
@@ -26,6 +27,7 @@ function setReactButtons() {
     return $result;
 }
 
+//This truncates the database table Question
 function truncateQuestions() {
     $query1 = "TRUNCATE TABLE QUESTION;";
 

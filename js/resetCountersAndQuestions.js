@@ -8,9 +8,10 @@ if (millisToNextHour > 0) {
     setTimeout(cleanDB, millisToNextHour);
 }
 
-
+// The function which calls to the php-file that truncates the QuestionTable in the DB.
 function cleanDB() {
-    $.get('../php/update/updateDbCleanser.php');//'http://org.ntnu.no/tdt4140iq/iQ/php/update/updateDbCleanser.php'
+    $.get('../php/update/updateDbCleanser.php');
+    // The rest of the code removes what is in the feed
     document.getElementById("content").innerHTML = "";
     if ($(".questionBox").exists()) {
         $("#content").children().each(this.parentNode.removeChild(this));
